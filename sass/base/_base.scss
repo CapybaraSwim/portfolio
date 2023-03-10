@@ -1,0 +1,78 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #323232;
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 100%;
+    font-weight: 600;
+    overflow-x: hidden;
+}
+h2{
+    font-size: 120px;
+    line-height: 84px;
+}
+.title__orange{
+    color: #FF4900;
+}
+.title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 140px;
+    line-height: 100px;
+    text-transform: lowercase;
+    color: #fff;
+    p:first-child{
+        padding-bottom: 30px;
+    }
+}
+.button{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 54px;
+    border: 2px solid #FF4900;
+    padding: 14px 45px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    &:hover{
+        background-color: #FF4900;
+        transition: background-color 0.3s ease-in;
+    }
+}
+.points{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 44px;
+    font-family: 'Proxima Nova';
+    font-size: 18px;
+    position: relative;
+    img{
+        position: absolute;
+        margin-top: -25px;
+    }
+    .number{
+        transform: rotate(-90deg);
+        transform-origin: top left;
+        margin-left: -5px;
+        color: #FF4900;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+}
+.pretitle{
+    padding-bottom: 40px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+footer{
+    padding-top: 185px;
+}
+

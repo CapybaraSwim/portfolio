@@ -1,0 +1,22 @@
+.pencil{
+    margin: 240px 224px 0px 133px;
+}
+.pencil__title{
+    padding-bottom: 80px;
+}
+.pencil__row_main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    column-gap: 100px;
+}
+.pencil__text{
+    width: 450px;
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+.pencil__row_img{
+    padding-right: 224px;
+}

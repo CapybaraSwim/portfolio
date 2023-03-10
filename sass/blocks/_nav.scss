@@ -1,0 +1,34 @@
+.navigation-list {
+    ul{
+        display: flex;
+    }
+    li{
+        margin-left: 40px;
+    }
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    a:hover{
+        color: #FF4900;
+        transition: color 0.2s ease-in;
+    }
+}
+.nav{
+
+}
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 61px 90px 61px 90px;
+}
+.logo img{
+    width: 57.5px;
+    height: 20px;
+}

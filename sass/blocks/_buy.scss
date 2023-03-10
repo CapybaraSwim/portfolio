@@ -1,0 +1,22 @@
+.buy__container{
+    padding: 0px 132px;
+}
+.buy__title{
+    padding-bottom: 120px;
+}
+.buy__container{
+    max-width: 1012px;
+}
+.buy__row{
+    div{
+        border-bottom: 2px solid;
+    }
+    column-gap: 120px;
+    span{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 80%;
+    }
+}

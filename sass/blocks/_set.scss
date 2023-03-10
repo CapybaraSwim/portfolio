@@ -1,0 +1,55 @@
+.set{
+    padding: 235px 217px 0px 0px;
+}
+.set__row{
+    display: flex;
+    justify-content: center;
+    column-gap: 129px;
+}
+.set__title{
+    padding-bottom: 80px;
+}
+.set__price{
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 42px;
+}
+.set__radio{
+    display:flex;
+    column-gap: 50px;
+    padding-bottom: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    a{
+        position: relative;
+        padding-left: 42px;
+    }
+    .white::before{
+        content:'';
+        position: absolute;
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #fff;
+        top: -2px;
+        left: 0px;
+    }
+    .grey::before{
+        content:'';
+        position: absolute;
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #464646;
+        top: -2px;
+        left: 0px;
+    }
+}
+input{
+    display: block;
+}

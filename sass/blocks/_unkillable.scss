@@ -1,0 +1,30 @@
+.unkillable{
+    position:relative;
+    z-index: 1;
+    overflow: hidden;
+    padding-top: 118px;
+}
+.unkillable__container{
+    width:1440px;
+    margin: 0 auto;
+}
+.cent{
+    text-align: center;
+}
+.ukillable__title{
+    p:first-child{
+        padding-bottom: 40px;
+    }
+}
+.unkillable_img{
+    position: relative;
+    z-index: 1;
+    padding: 70px 448px 0px 447px;
+}
+.unkillable-background__image{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    right: -500px;
+    top:-70px;
+}

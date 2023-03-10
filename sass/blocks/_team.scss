@@ -1,0 +1,54 @@
+.wrapper{
+    background: url("./../img/header/line_wrapper.svg");
+    background-size: 100% 100%;
+}
+.team{
+    padding: 241px 0px 0px 132px;
+    position: relative;
+}
+.team__row{
+    display: flex;
+    column-gap: 85px;
+}
+.person__row{
+    display: flex;
+}
+.team__title{
+    padding-bottom: 100px;
+}
+.team__person{
+    position: relative;
+}
+.person__name{
+    font-family: 'Gilroy';
+    font-size: 40px;
+    line-height: 100%;    
+    position: absolute;
+    top: -13px;
+    left:253px;
+    text-transform: lowercase;
+}
+.social__network{
+    display:flex;
+    column-gap: 18px;
+    text-transform: capitalize;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    line-height: 0.04em;
+    color:#FF4900;
+}
+.person__line{
+    padding: 30px 0px;
+}
+.team__text{
+    padding-top: 100px;
+    font-family: 'Proxima Nova';
+    font-size: 18px;
+    line-height: 26px;
+    width: 453px;
+    p{
+        padding-bottom: 25px;
+    }
+}
