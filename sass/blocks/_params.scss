@@ -1,12 +1,37 @@
 .params__row{
-    max-width:100%;
-    width:100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width:1160px;
+    height:586px;
     overflow: auto;
-    position: absolute;
+    &::-webkit-scrollbar{
+        height: 2px;
+    }
+    &::-webkit-scrollbar-track{
+        background: #404040;
+        height: 2px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: #FF4900;
+        height: 2px;
+        max-width: 293px;
+    }
 }
 .params{
-    position: relative;
+    padding-left: 258px;
+    padding-top: 58px;
+}
+.params__title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80%;
+    display: flex;
+    align-items: center;
+    width: 649px;
+}
+.params__scroll{
+    display: flex;
+}
+.scroll__number{
 }

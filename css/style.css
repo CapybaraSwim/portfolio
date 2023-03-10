@@ -33,6 +33,12 @@ button, input[type="submit"] {
   background: none;
 }
 
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -40,6 +46,7 @@ body {
   background-color: #000;
   color: #fff;
   margin: 0 auto;
+  width: 100%;
   max-width: 100%;
   font-weight: 600;
   overflow-x: hidden;
@@ -240,6 +247,7 @@ footer {
 .problems {
   margin-top: 166px;
   padding: 0px 132px;
+  margin-bottom: 58px;
 }
 
 .problems__title {
@@ -284,15 +292,15 @@ footer {
   top: -70px;
 }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 8px;
 }
 
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: #000;
 }
 
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background: rgba(122, 122, 122, 0.3);
   border-radius: 8px;
   border: 2px solid rgba(159, 159, 159, 0.653);
@@ -576,6 +584,53 @@ input {
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
+}
+
+.params__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1160px;
+  height: 586px;
+  overflow: auto;
+}
+.params__row::-webkit-scrollbar {
+  height: 2px;
+}
+.params__row::-webkit-scrollbar-track {
+  background: #404040;
+  height: 2px;
+}
+.params__row::-webkit-scrollbar-thumb {
+  background: #FF4900;
+  height: 2px;
+  max-width: 293px;
+}
+
+.params {
+  padding-left: 258px;
+  padding-top: 58px;
+}
+
+.params__title {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 649px;
+}
+
+.params__scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @font-face {
