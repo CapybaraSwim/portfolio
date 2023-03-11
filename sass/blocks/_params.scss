@@ -31,6 +31,18 @@
 }
 .params__scroll{
     display: flex;
+    padding-top: 50px;
+    column-gap:14px;
+}
+.scroll__number{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
 }
 .arrows{
+    display: flex;
+    column-gap: 17px;
+    padding-left: 36px;
 }

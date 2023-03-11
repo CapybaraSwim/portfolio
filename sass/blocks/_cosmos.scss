@@ -10,12 +10,6 @@
     line-height: 84px;
     white-space: nowrap;
 }
-.cosmos{
-    video{
-        width:629;
-        height:378;
-    }
-}
 .cosmos__row{
     padding: 95px 216px 0px 216px;
     display: flex;
@@ -52,8 +46,4 @@
 .video{
     position: relative;
     z-index: 1;
-    iframe{
-        position: relative;
-        z-index: 1;
-    }
 }

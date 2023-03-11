@@ -632,6 +632,26 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 50px;
+  -webkit-column-gap: 14px;
+          column-gap: 14px;
+}
+
+.scroll__number {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 17px;
+          column-gap: 17px;
+  padding-left: 36px;
 }
 
 .cosmos {
@@ -646,11 +666,6 @@ input {
   font-size: 120px;
   line-height: 84px;
   white-space: nowrap;
-}
-
-.cosmos video {
-  width: 629;
-  height: 378;
 }
 
 .cosmos__row {
@@ -693,10 +708,6 @@ input {
 }
 
 .video {
-  position: relative;
-  z-index: 1;
-}
-.video iframe {
   position: relative;
   z-index: 1;
 }
