@@ -1,0 +1,59 @@
+.cosmos{
+    padding: 240px 0px 257px 0px;
+    position: relative;
+}
+.cosmos__title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 84px;
+    white-space: nowrap;
+}
+.cosmos{
+    video{
+        width:629;
+        height:378;
+    }
+}
+.cosmos__row{
+    padding: 95px 216px 0px 216px;
+    display: flex;
+    column-gap: 86px;
+}
+.cosmos__text{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    width: 287px;
+    padding-bottom: 79px;
+}
+.cosmos__content{
+    .social__network{
+        padding-bottom: 30px;
+    }
+}
+.hashtag{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    padding-top: 30px;
+}
+.cosmos__background{
+    position: absolute;
+    z-index: 0;
+    top: -80px;
+}
+.video{
+    position: relative;
+    z-index: 1;
+    iframe{
+        position: relative;
+        z-index: 1;
+    }
+}
