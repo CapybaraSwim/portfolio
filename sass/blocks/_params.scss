@@ -1,8 +1,9 @@
 .params__row{
     display: flex;
-    width:1160px;
-    height:586px;
-    overflow: auto;
+    overflow-x: scroll;
+    width: 1100px;
+    padding-bottom: 90px;
+    padding-right: 450px;
     &::-webkit-scrollbar{
         height: 2px;
     }
@@ -45,4 +46,16 @@
     display: flex;
     column-gap: 17px;
     padding-left: 36px;
+    position: absolute;
+    left: 370px;
+}
+.params__swipe{
+    padding-top: 24px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    position: absolute;
 }

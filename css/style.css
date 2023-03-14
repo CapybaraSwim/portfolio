@@ -562,7 +562,7 @@ input {
 }
 .feedback__form label {
   display: block;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
 .feedback__form label:last-child {
   padding-bottom: 60px;
@@ -592,9 +592,10 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1160px;
-  height: 586px;
-  overflow: auto;
+  overflow-x: scroll;
+  width: 1100px;
+  padding-bottom: 90px;
+  padding-right: 450px;
 }
 .params__row::-webkit-scrollbar {
   height: 2px;
@@ -652,6 +653,19 @@ input {
   -webkit-column-gap: 17px;
           column-gap: 17px;
   padding-left: 36px;
+  position: absolute;
+  left: 370px;
+}
+
+.params__swipe {
+  padding-top: 24px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  position: absolute;
 }
 
 .cosmos {
