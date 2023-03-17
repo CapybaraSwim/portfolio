@@ -49,6 +49,12 @@
     position: absolute;
     left: 370px;
 }
+.leftarr{
+    transform: rotate(180deg);
+}
+.active{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(5816%) hue-rotate(337deg) brightness(138%) contrast(100%);
+}
 .params__swipe{
     padding-top: 24px;
     font-family: 'Gilroy';

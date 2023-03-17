@@ -1,20 +1,34 @@
-const form = document.querySelector(".form");
-const input = document.querySelector(".form__input");
-
-
-input.addEventListener('blur', function(){
-	form.classList.remove('form--active');
+const content = document.getElementById('content');
+let scrollStep=650;
+document.getElementById('right-button').addEventListener('click', function(e) {
+  e.preventDefault();
+  let sl = content.scrollLeft,
+    cw = content.scrollWidth;
+    if ((sl + scrollStep) >= cw) {
+      content.scrollTo(cw, 0);
+    } else {
+      content.scrollTo((sl + scrollStep), 0);
+    }
+});
+document.getElementById('left-button').addEventListener('click', function(e) {
+  e.preventDefault();
+  let sl = content.scrollLeft;
+  if ((sl - scrollStep) <= 0) {
+    content.scrollTo(0, 0);
+  } else {
+    content.scrollTo((sl - scrollStep), 0);
+  }
 });
 
-input.addEventListener('focus', function(){
-	form.classList.add('form--active');
-});
-// video
-const video = document.getElementById('video');
-const videoControls = document.getElementById('video-controls');
+let arrows = document.querySelectorAll('.arrow__button');
+let active = document.querySelector('.arrow__button.active') || arrows[0];
 
-const videoWorks = !!document.createElement('video').canPlayType;
-if (videoWorks) {
-  video.controls = false;
-  videoControls.classList.remove('hidden');
+for (let i = 0; i < arrows.length; i++) {
+    arrows[i].addEventListener('click', arrowsActive);
+}
+function arrowsActive() {
+    active.classList.remove('active');
+    this.classList.add('active');
+
+    active = this;
 }
