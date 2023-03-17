@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../fonts/gilroy/SVN-GilroyLight.woff2') format('woff2'),
+        url('../fonts/gilroy/SVN-GilroyLight.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/gilroy-bold/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/gilroy/gilroy-bold/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/proxima-nova/proxima-nova-bold/hneggppdfobmfeppgkglpfhnnicafonh.woff2') format('woff2'),
+        url('../fonts/proxima-nova/proxima-nova-bold/hneggppdfobmfeppgkglpfhnnicafonh.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proxima-nova/proxima-nova-light/amlgjlahnkgmkjoldgbpeifodofplkkf.woff2') format('woff2'),
+        url('../fonts/proxima-nova/proxima-nova-light/amlgjlahnkgmkjoldgbpeifodofplkkf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
