@@ -24,14 +24,14 @@
     z-index: 1;
 }
 .key__img{
-    padding: 62px 82px 0px 0px;
+    padding: 62px 0px 0px 0px;
     z-index: 1;
     position: relative;
 }
 .key__row{
     display: flex;
     justify-content: space-between;
-    column-gap: 251px;
+    column-gap: 230px;
     position: relative;
 }
 .key__button{
@@ -45,7 +45,6 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 26px;
-        max-width: 265px;
         z-index: 1;
     }
     .price{

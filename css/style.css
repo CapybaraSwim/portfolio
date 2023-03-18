@@ -40,7 +40,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 100%;
   color: #323232;
   background-color: #000;
   color: #fff;
@@ -170,11 +170,6 @@ footer {
   margin: 61px 90px 61px 90px;
 }
 
-.logo img {
-  width: 57.5px;
-  height: 20px;
-}
-
 .key {
   position: relative;
   padding-left: 132px;
@@ -206,7 +201,7 @@ footer {
 }
 
 .key__img {
-  padding: 62px 82px 0px 0px;
+  padding: 62px 0px 0px 0px;
   z-index: 1;
   position: relative;
 }
@@ -218,8 +213,8 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-column-gap: 251px;
-          column-gap: 251px;
+  -webkit-column-gap: 230px;
+          column-gap: 230px;
   position: relative;
 }
 
@@ -236,7 +231,6 @@ footer {
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
-  max-width: 265px;
   z-index: 1;
 }
 .key__content .price {
@@ -354,13 +348,9 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 120px;
 }
 
-.buy__container {
-  max-width: 1012px;
-}
-
 .buy__row {
-  -webkit-column-gap: 120px;
-          column-gap: 120px;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
 }
 .buy__row div {
   border-bottom: 2px solid;
@@ -709,7 +699,6 @@ input {
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
-  width: 287px;
   padding-bottom: 79px;
 }
 
