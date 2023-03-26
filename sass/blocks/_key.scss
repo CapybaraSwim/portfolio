@@ -9,7 +9,7 @@
     top:-155px;
     left: 80px;
     background-size:100% 100%;
-    background-repeat:no-repeat;
+    object-fit: cover;
 }
 .key-background__img img{
     z-index: 0;
@@ -27,6 +27,10 @@
     padding: 62px 0px 0px 0px;
     z-index: 1;
     position: relative;
+    object-fit: cover;
+    display:block;
+    max-width:100%;
+    height:auto;
 }
 .key__row{
     display: flex;

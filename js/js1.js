@@ -1,5 +1,5 @@
 const content = document.getElementById('content');
-let scrollStep=650;
+let scrollStep=645;
 document.getElementById('right-button').addEventListener('click', function(e) {
   e.preventDefault();
   let sl = content.scrollLeft,

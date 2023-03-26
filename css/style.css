@@ -40,14 +40,14 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 100%;
+  font-size: 16px;
   color: #323232;
   background-color: #000;
   color: #fff;
   margin: 0 auto;
-  width: 100%;
   font-weight: 600;
   overflow-x: hidden;
+  padding: 0;
 }
 
 h2 {
@@ -132,6 +132,10 @@ footer {
   padding-top: 185px;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 .navigation-list {
   font-family: "Gilroy";
   font-style: normal;
@@ -167,7 +171,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 61px 90px 61px 90px;
+  padding: 61px 90px 61px 90px;
 }
 
 .key {
@@ -182,7 +186,8 @@ footer {
   top: -155px;
   left: 80px;
   background-size: 100% 100%;
-  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .key-background__img img {
@@ -204,6 +209,11 @@ footer {
   padding: 62px 0px 0px 0px;
   z-index: 1;
   position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .key__row {
@@ -259,7 +269,6 @@ footer {
 .unkillable {
   position: relative;
   z-index: 1;
-  overflow: hidden;
   padding-top: 118px;
 }
 
@@ -429,7 +438,7 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Proxima Nova';
   font-size: 18px;
   line-height: 26px;
-  width: 453px;
+  max-width: 453px;
 }
 .team__text p {
   padding-bottom: 25px;
@@ -585,9 +594,8 @@ input {
   display: -ms-flexbox;
   display: flex;
   overflow-x: scroll;
-  max-width: 1100px;
   padding-bottom: 90px;
-  padding-right: 450px;
+  padding-right: 530px;
 }
 .params__row::-webkit-scrollbar {
   height: 2px;
@@ -731,19 +739,255 @@ input {
   max-width: 1440px;
 }
 
-@media (max-width: 1440px) {
-  .container {
-    max-width: 970px;
-  }
-}
 @media (max-width: 992px) {
   .container {
     max-width: 750px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 @media (max-width: 767px) {
   .container {
+    max-width: 350px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 320px) {
+  .container {
     max-width: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .nav li {
+    margin-left: 10px;
+  }
+  .nav .navigation-list {
+    font-size: 8px;
+  }
+  .nav .navigation-list li {
+    font-size: 8px;
+  }
+  .nav .nav__row {
+    padding: 15px 25px 40px 25px;
+  }
+
+  .logo img {
+    width: 40px;
+  }
+
+  .button {
+    height: 35px;
+    padding: 5px 6px;
+  }
+
+  .key {
+    padding-left: 20px;
+  }
+  .key .key__button a {
+    font-size: 8px;
+  }
+  .key .key__row {
+    -webkit-column-gap: 0px;
+            column-gap: 0px;
+  }
+  .key .key-background__img {
+    top: 60px;
+    left: 70px;
+  }
+  .key .key__content {
+    position: relative;
+    padding-top: 20px;
+  }
+  .key .key__content p:first-child {
+    padding-bottom: 25px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .key .key__content .price {
+    padding-bottom: 15px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .key .key-background__img img {
+    width: 230px;
+  }
+  .key .key__img {
+    left: -120px;
+  }
+  .key .key__img img {
+    width: 170px;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 30px;
+  }
+  .title p:first-child {
+    padding-bottom: 10px;
+  }
+
+  .pretitle {
+    padding-bottom: 25px;
+    margin-top: 120px;
+    font-size: 12px;
+  }
+
+  .problems {
+    padding-left: 80px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  .problems .problems__title {
+    padding-bottom: 60px;
+  }
+  .problems .problems__row {
+    padding-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 90px;
+    line-height: 60px;
+  }
+
+  .points {
+    font-size: 16px;
+  }
+
+  .number p {
+    font-size: 16px;
+  }
+
+  .unkillable {
+    padding-top: 0px;
+    padding-left: 50px;
+  }
+  .unkillable .unkillable_img {
+    position: relative;
+    z-index: 1;
+    padding: 30px 0px 0px 85px;
+  }
+  .unkillable .unkillable-background__image {
+    position: absolute;
+    z-index: 0;
+    width: 440px;
+    right: 120px;
+    top: -290px;
+  }
+
+  .params {
+    padding-left: 132px;
+    padding-bottom: 20px;
+  }
+  .params .params__title {
+    font-size: 65px;
+  }
+  .params .arrows {
+    display: none;
+  }
+  .params .params__img img {
+    width: 400px;
+  }
+  .params .params__container {
+    width: 420px;
+  }
+  .params .params__row {
+    padding-right: 0px;
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+  }
+
+  .pencil {
+    margin: 120px 30px 0px 110px;
+  }
+  .pencil .pencil__row_main {
+    -webkit-column-gap: 0px;
+            column-gap: 0px;
+  }
+  .pencil .pencil__text {
+    width: 330px;
+    font-size: 95%;
+    line-height: 24px;
+  }
+  .pencil .pencil__row_img img {
+    width: 290px;
+  }
+  .pencil .pencil__title p {
+    font-size: 75px;
+  }
+
+  .cosmos {
+    padding: 0px;
+  }
+  .cosmos .cosmos__text {
+    padding-bottom: 40px;
+  }
+  .cosmos .cosmos__row {
+    display: block;
+    padding: 30px 0px 40px 110px;
+  }
+  .cosmos video {
+    width: 600px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+  }
+  .cosmos .cosmos__pretitle {
+    padding-left: 80px;
+  }
+  .cosmos .cosmos__title {
+    padding-left: 80px;
+  }
+  .cosmos .cosmos__background {
+    top: -310px;
+    left: 0px;
+  }
+  .cosmos .cosmos__background img {
+    width: 770px;
+  }
+  .cosmos .hashtag {
+    padding-top: 15px;
+  }
+
+  .buy {
+    padding-left: -52px;
+  }
+  .buy .buy__row {
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+  }
+  .buy .buy__row span {
+    font-size: 50px;
+  }
+  .buy .buy__title {
+    padding-bottom: 70px;
+  }
+
+  .team {
+    padding-top: 110px;
+  }
+  .team .team__text {
+    padding-top: 50px;
+    font-size: 14px;
+  }
+  .team .team__text p {
+    padding-bottom: 15px;
+  }
+  .team .person img {
+    width: 130px;
+  }
+  .team .team__row {
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+  }
+  .team .person__name {
+    left: 140px;
   }
 }
 @font-face {
