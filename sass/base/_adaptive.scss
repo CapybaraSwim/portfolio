@@ -6,19 +6,7 @@
         max-width: 750px;
         flex-direction: column;
     }
-}
-@media(max-width:767px){
-    .container{
-        max-width: 350px;
-        flex-direction: column;
-    }
-}
-@media(max-width: 320px){
-    .container{
-        max-width: none;
-        flex-direction: column;
-    }
-    .nav{
+    /*    .nav{
         li{
             margin-left: 10px;
         }
@@ -38,8 +26,12 @@
         }
     }
     .button{
-        height: 35px;
-        padding: 5px 6px;
+        font-size: 12px;
+        border{
+            border: 1px;
+        }
+        height: 30px;
+        padding: 2px 3px;
     }
     .key{
         padding-left: 20px;
@@ -89,36 +81,50 @@
         }
     }
     .pretitle{
-        padding-bottom: 25px;
-        margin-top: 120px;
-        font-size: 12px;
+        padding-bottom: 10px;
+        margin-top: 40px;
+        font-size: 8px;
+    }
+    .points{
+        column-gap: 20px;
+        img{
+            margin-top: -15px;
+        }
+        .number{
+            padding-bottom: 10px;
+        }
     }
     .problems{
-        padding-left: 80px;
+        margin-top: 30px;
+        padding-left: 23px;
         padding-right: 0px;
         padding-bottom: 20px;
         .problems__title{
-            padding-bottom: 60px;
+            padding-bottom: 40px;
         }
         .problems__row{
-            padding-bottom: 40px;
+            padding-bottom: 15px;
+            padding-left: 4px;
+        }
+        img{
+            width: 8px;
         }
     }
     h2{
-        font-size: 90px;
-        line-height: 60px;
+        font-size: 30px;
+        line-height: 20px;
     }
     .points{
-        font-size: 16px;
+        font-size: 8px;
     }
     .number{
         p{
-            font-size: 16px;
+            font-size: 9px;
         }
     }
     .unkillable{
         padding-top: 0px;
-        padding-left: 50px;
+        padding-left: 20px;
         .unkillable_img{
             position: relative;
             z-index: 1;
@@ -188,6 +194,551 @@
             width: 600px;
             padding-left: 60px;
             padding-bottom: 50px;
+        }
+        .cosmos__pretitle{
+            padding-left: 80px;
+        }
+        .cosmos__title{
+            padding-left: 80px;
+        }
+        .cosmos__background{
+            img{
+                width:770px;
+            }
+            top: -310px;
+            left: 0px;
+        }
+        .hashtag{
+            padding-top: 15px;
+        }
+    }
+    .buy{
+        padding-left: -52px;
+        .buy__row{
+            column-gap: 30px;
+            span{
+                font-size: 50px;
+            }
+        }
+        .buy__title{
+            padding-bottom: 70px;
+        }
+    }
+    .team{
+        padding-top: 110px;
+        .team__text{
+            padding-top: 50px;
+            font-size: 14px;
+            p{
+                padding-bottom: 15px;
+            }
+        }
+        .person{
+            img{
+                width: 130px;
+            }
+        }
+        .team__row{
+            column-gap: 30px;
+        }
+        .person__name{
+            left: 140px;
+        }
+    }*/
+}
+@media(max-width:767px){
+    .container{
+        max-width: 350px;
+        flex-direction: column;
+    }
+/*    .nav{
+        li{
+            margin-left: 10px;
+        }
+        .navigation-list{
+            font-size: 8px;
+            li{
+                font-size: 8px;
+            }
+        }
+        .nav__row{
+            padding: 15px 25px 40px 25px;
+        }
+    }
+    .logo{
+        img{
+            width: 40px;
+        }
+    }
+    .button{
+        font-size: 12px;
+        border{
+            border: 1px;
+        }
+        height: 30px;
+        padding: 2px 3px;
+    }
+    .key{
+        padding-left: 20px;
+        .key__button{
+            a{
+                font-size: 8px;
+            }
+        }
+        .key__row{
+            column-gap: 0px;
+        }
+        .key-background__img{
+            top: 60px;
+            left: 70px;
+        }
+        .key__content{
+            position: relative;
+            padding-top: 20px;
+            p:first-child{
+                padding-bottom: 25px;
+                font-size: 10px;
+                line-height: 10px;
+            }
+            .price{
+                padding-bottom: 15px;
+                font-size: 10px;
+                line-height: 10px;
+            }
+        }
+        .key-background__img{
+            img{
+                width: 230px;
+            }
+        }
+        .key__img{
+            left: -120px;
+            img{
+                width: 170px;
+            }
+        }
+    }
+    .title{
+        font-size: 40px;
+        line-height:30px;
+        p:first-child{
+            padding-bottom: 10px;
+        }
+    }
+    .pretitle{
+        padding-bottom: 10px;
+        margin-top: 40px;
+        font-size: 8px;
+    }
+    .points{
+        column-gap: 20px;
+        img{
+            margin-top: -15px;
+        }
+        .number{
+            padding-bottom: 10px;
+        }
+    }
+    .problems{
+        margin-top: 30px;
+        padding-left: 23px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        .problems__title{
+            padding-bottom: 40px;
+        }
+        .problems__row{
+            padding-bottom: 15px;
+            padding-left: 4px;
+        }
+        img{
+            width: 8px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .points{
+        font-size: 8px;
+    }
+    .number{
+        p{
+            font-size: 9px;
+        }
+    }
+    .unkillable{
+        padding-top: 0px;
+        padding-left: 20px;
+        .unkillable_img{
+            position: relative;
+            z-index: 1;
+            padding: 30px 0px 0px 85px;
+        }
+        .unkillable-background__image{
+            position: absolute;
+            z-index: 0;
+            width: 440px;
+            right: 120px;
+            top:-290px;
+        }
+    }
+    .params{
+        padding-left: 132px;
+        padding-bottom: 20px;
+        .params__title{
+            font-size: 65px;
+        }
+        .arrows{
+            display: none;
+        }
+        .params__img{
+            img{
+                width: 400px;
+            }
+        }
+        .params__container{
+            width: 420px;
+        }
+        .params__row{
+            padding-right: 0px;
+            column-gap: 40px;
+        }
+    }
+    .pencil{
+        margin: 120px 30px 0px 110px;
+        .pencil__row_main{
+            column-gap: 0px;
+        }
+        .pencil__text{
+            width: 330px;
+            font-size: 95%;
+            line-height: 24px;
+        }
+        .pencil__row_img{
+            img{
+                width: 290px;
+            }
+        }
+        .pencil__title{
+            p{
+                font-size: 75px;
+            }
+        }
+    }
+    .cosmos{
+        padding: 0px;
+        .cosmos__text{
+            padding-bottom: 40px;
+        }
+        .cosmos__row{
+            display: block;
+            padding: 30px 0px 40px 110px;
+        }
+        video{
+            width: 600px;
+            padding-left: 60px;
+            padding-bottom: 50px;
+        }
+        .cosmos__pretitle{
+            padding-left: 80px;
+        }
+        .cosmos__title{
+            padding-left: 80px;
+        }
+        .cosmos__background{
+            img{
+                width:770px;
+            }
+            top: -310px;
+            left: 0px;
+        }
+        .hashtag{
+            padding-top: 15px;
+        }
+    }
+    .buy{
+        padding-left: -52px;
+        .buy__row{
+            column-gap: 30px;
+            span{
+                font-size: 50px;
+            }
+        }
+        .buy__title{
+            padding-bottom: 70px;
+        }
+    }
+    .team{
+        padding-top: 110px;
+        .team__text{
+            padding-top: 50px;
+            font-size: 14px;
+            p{
+                padding-bottom: 15px;
+            }
+        }
+        .person{
+            img{
+                width: 130px;
+            }
+        }
+        .team__row{
+            column-gap: 30px;
+        }
+        .person__name{
+            left: 140px;
+        }
+    }*/
+}
+@media(max-width: 320px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        overflow-x: hidden;
+        max-width: none;
+        flex-direction: column;
+    }
+    .nav{
+        li{
+            margin-left: 10px;
+        }
+        .navigation-list{
+            font-size: 8px;
+            li{
+                font-size: 8px;
+            }
+        }
+        .nav__row{
+            padding: 15px 25px 40px 25px;
+        }
+    }
+    .logo{
+        img{
+            width: 40px;
+        }
+    }
+    .button{
+        font-size: 12px;
+        border{
+            border: 1px;
+        }
+        height: 30px;
+        padding: 2px 3px;
+    }
+    .key{
+        padding-left: 20px;
+        .key__button{
+            a{
+                font-size: 8px;
+            }
+        }
+        .key__row{
+            column-gap: 0px;
+        }
+        .key-background__img{
+            top: 60px;
+            left: 35px;
+        }
+        .key__content{
+            position: relative;
+            padding-top: 20px;
+            p:first-child{
+                padding-bottom: 25px;
+                font-size: 11px;
+                line-height: 10px;
+            }
+            .price{
+                padding-bottom: 15px;
+                font-size: 11px;
+                line-height: 10px;
+            }
+        }
+        .key-background__img{
+            img{
+                width: 230px;
+            }
+        }
+        .key__img{
+            left: -150px;
+            img{
+                width: 170px;
+            }
+        }
+    }
+    .title{
+        font-size: 40px;
+        line-height:30px;
+        p:first-child{
+            padding-bottom: 10px;
+        }
+    }
+    .pretitle{
+        padding-bottom: 10px;
+        margin-top: 40px;
+        font-size: 8px;
+    }
+    .points{
+        column-gap: 20px;
+        img{
+            margin-top: -15px;
+        }
+        .number{
+            padding-bottom: 10px;
+        }
+    }
+    .problems{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-left: 23px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        .problems__title{
+            padding-bottom: 40px;
+        }
+        .problems__row{
+            p{
+                font-size: 12px;
+            }
+            padding-bottom: 15px;
+            padding-left: 4px;
+        }
+        img{
+            width: 8px;
+        }
+        .problems__row{
+            padding-bottom: 0px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .points{
+        font-size: 8px;
+    }
+    .number{
+        p{
+            font-size: 9px;
+        }
+    }
+    .unkillable{
+        padding-top: 0px;
+        padding-left: 20px;
+        .unkillable__container{
+            padding-left: 0px;
+        }
+        .unkillable_img{
+            position: relative;
+            z-index: 1;
+            padding: 15px 0px 0px 20px;
+            img{
+                width: 270px;
+            }
+        }
+        .unkillable-background__image{
+            position: absolute;
+            z-index: 0;
+            right: -65px;
+            top: 20px;
+            img{
+                width: 330px;
+            }
+        }
+    }
+    .params{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        .params__title{
+            font-size: 30px;
+        }
+        .arrows{
+            display: none;
+        }
+        .params__img{
+            img{
+                width: 250px;
+            }
+        }
+        .params__container{
+            width: 270px;
+        }
+        .params__row{
+            column-gap: 0px;
+            padding-bottom: 45px;
+        }
+        .params__swipe{
+            font-size: 13px;
+        }
+        .params__scroll{
+            img{
+                width: 17px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .pencil{
+        margin: 30px 0px 0px 20px;
+        .pencil__row_main{
+            column-gap: 0px;
+        }
+        .pencil__text{
+            width: 120px;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        .pencil__row_img{
+            position: absolute;
+            left: 140px;
+            top: 1640px;
+            img{
+                width: 150px;
+            }
+        }
+        .pencil__title{
+            p{
+                font-size: 40px;
+            }
+        }
+        .pencil__text{
+            font-size: 14px;
+        }
+        .pencil__row_main{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 40px;
+        }
+        .pencil__row_points{
+            padding-left: 10px;
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    .cosmos{
+        padding: 0px;
+        padding-top: 30px;
+        padding-left: -40px;
+        .cosmos__text{
+            padding-bottom: 40px;
+        }
+        .cosmos__row{
+            display: block;
+            padding: 20px 0px 30px 0px;
+        }
+        video{
+            width: 300px;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            height: 230px;
+        }
+        .video__container{
+            padding-bottom: 20px;
         }
         .cosmos__pretitle{
             padding-left: 80px;
