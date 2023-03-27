@@ -1239,7 +1239,7 @@ input {
           }
       }*/
 }
-@media (max-width: 380px) {
+@media (max-width: 350px) {
   body {
     width: 100%;
     margin: 0;
@@ -1532,6 +1532,7 @@ input {
     padding-bottom: 40px;
   }
   .buy .buy__row {
+    padding-right: 10px;
     padding-top: 12px;
     padding-left: 5px;
     -webkit-column-gap: 15px;
@@ -1571,6 +1572,68 @@ input {
   .team .team__text {
     height: 250px;
     overflow: auto;
+  }
+  .team .team__title {
+    padding-bottom: 40px;
+  }
+
+  .set {
+    padding: 140px 0px 0px 0px;
+  }
+  .set span {
+    font-size: 15px;
+  }
+  .set .set__title {
+    padding-bottom: 30px;
+  }
+  .set .set__row {
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+  }
+  .set .set__img img {
+    width: 240px;
+    padding-left: 40px;
+  }
+  .set .set__radio {
+    padding-right: 120px;
+    -webkit-column-gap: 5px;
+            column-gap: 5px;
+    font-size: 13px;
+  }
+  .set .set__radio .grey::before {
+    width: 15px;
+    height: 15px;
+    left: 10px;
+    top: 6px;
+  }
+  .set .set__radio .white::before {
+    width: 15px;
+    height: 15px;
+    top: 6px;
+    left: 10px;
+  }
+
+  .feedback {
+    padding-left: 20px;
+  }
+  .feedback .feedback__row {
+    padding-top: 50px;
+  }
+  .feedback .feedback__section {
+    padding-left: 0;
+    padding-top: 50px;
+  }
+  .feedback .feedback__social {
+    display: none;
+  }
+  .feedback .feedback__form p {
+    font-size: 14px;
+  }
+  .feedback .feedback__form input {
+    width: 300px;
+  }
+  .feedback .feedback__form textarea {
+    width: 300px;
   }
 }
 @font-face {
