@@ -1,19 +1,27 @@
 .pencil{
-    margin: 240px 224px 0px 133px;
+    margin: 12.5vw 11.67vw 0vw 6.93vw;
+}
+.pencil__row_img{
+    top:5%;
+    left: 4%;
+    img{
+        width: 30vw;
+        height:auto;
+    }
 }
 .pencil__title{
-    padding-bottom: 80px;
+    padding-bottom: 4.17vw;
 }
 .pencil__row_main{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 120px;
-    column-gap: 100px;
+    padding-bottom: 6.25vw;
+    column-gap: 5.21vw;
 }
 .pencil__text{
-    width: 450px;
+    width: 23.4vw;
     font-family: 'Proxima Nova';
     font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.1vw;
+    line-height: 1.4vw;
 }

@@ -1,29 +1,37 @@
 .unkillable{
     position:relative;
     z-index: 1;
-    padding-top: 118px;
+    padding-top: 8.25vw;
 }
 .unkillable__container{
     margin: 0 auto;
-    padding-left: 45px;
+    padding-left: 3.13vw;
 }
 .cent{
     text-align: center;
 }
 .ukillable__title{
     p:first-child{
-        padding-bottom: 40px;
+        padding-bottom: 2.7vw;
     }
 }
 .unkillable_img{
     position: relative;
     z-index: 1;
-    padding: 70px 448px 0px 447px;
+    top:5%;
+    left: 24%;
+    img{
+        width: 50vw;
+        height:auto;
+    }
 }
 .unkillable-background__image{
     position: absolute;
     z-index: 0;
-    width: 100%;
-    right: -500px;
-    top:-70px;
+    top:5%;
+    left: 32%;
+    img{
+        width: 60vw;
+        height:auto;
+    }
 }

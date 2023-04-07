@@ -1,53 +1,59 @@
 .set{
-    padding: 235px 217px 0px 0px;
+    padding: 12.24vw 11.3vw 0px 0px;
 }
 .set__row{
     display: flex;
     justify-content: center;
-    column-gap: 129px;
+    column-gap: 6.72vw;
 }
 .set__title{
-    padding-bottom: 80px;
+    padding-bottom: 4.1vw;
 }
 .set__price{
     font-family: 'Proxima Nova';
     font-weight: 600;
-    font-size: 26px;
-    line-height: 32px;
-    padding-bottom: 42px;
+    font-size: 1.35vw;
+    line-height: 1.67vw;
+    padding-bottom: 2.19vw;
+}
+.set__img{
+    left: 5%;
+    img{
+        width: 30vw;
+    }
 }
 .set__radio{
     display:flex;
-    column-gap: 50px;
-    padding-bottom: 60px;
+    column-gap: 2.6vw;
+    padding-bottom: 3.13vw;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.3vw;
+    line-height: 1.35vw;
     a{
         position: relative;
-        padding-left: 42px;
+        padding-left: 2.19vw;
     }
     .white::before{
         content:'';
         position: absolute;
         display: inline-block;
-        width: 28px;
-        height: 28px;
+        width: 1.46vw;
+        height: 1.46vw;
         border-radius: 50%;
         background-color: #fff;
-        top: -2px;
-        left: 0px;
+        top: 0%;
+        left: 0%;
     }
     .grey::before{
         content:'';
         position: absolute;
         display: inline-block;
-        width: 28px;
-        height: 28px;
+        width: 1.46vw;
+        height: 1.46vw;
         border-radius: 50%;
         background-color: #464646;
-        top: -2px;
-        left: 0px;
+        top: 0%;
+        left: 0%;
     }
 }
 input{

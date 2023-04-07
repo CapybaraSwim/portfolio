@@ -1,15 +1,16 @@
 .key{
     position: relative;
-    padding-left: 132px;
+    padding-left: 9.17vw;
 }
 .key-background__img{
     position: absolute;
-    width: 100%;
-    right: 0px;
-    top:-155px;
-    left: 80px;
-    background-size:100% 100%;
-    object-fit: cover;
+
+    top:0%;
+    left: 22%;
+    img{
+        width: 70vw;
+        height:auto;
+    }
 }
 .key-background__img img{
     z-index: 0;
@@ -20,26 +21,27 @@
 }
 .key__content{
     position: relative;
-    padding-top: 90px;
+    padding-top: 6.25vw;
     z-index: 1;
 }
 .key__img{
-    padding: 62px 0px 0px 0px;
     z-index: 1;
     position: relative;
-    object-fit: cover;
-    display:block;
-    max-width:100%;
-    height:auto;
+    top:5%;
+    left: 4%;
+    img{
+        width: 60vw;
+        height:auto;
+    }
 }
 .key__row{
     display: flex;
     justify-content: space-between;
-    column-gap: 230px;
+
     position: relative;
 }
 .key__button{
-    min-width: 250px;
+    min-width: 15vw;
 }
 .key__content{
     position: relative;
@@ -47,16 +49,16 @@
         padding-bottom: 40px;
         font-family: 'Proxima Nova';
         font-weight: 600;
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 1.50vw;
+        line-height: 1.5vw;
         z-index: 1;
     }
     .price{
-        padding-bottom: 60px;
+        padding-bottom: 4vw;
         font-family: "Proxima Nova";
         font-weight: 600;
-        font-size: 26px;
-        line-height: 32px;
+        font-size: 1.8vw;
+        line-height: 2.22vw;
         z-index: 1;
     }
 }

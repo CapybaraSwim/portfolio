@@ -1,20 +1,20 @@
 .buy__container{
-    padding: 0px 132px;
+    padding: 0px 9vw;
 }
 .buy__title{
-    padding-bottom: 120px;
+    padding-bottom: 8vw;
 }
 
 .buy__row{
     div{
-        border-bottom: 2px solid;
+        border-bottom: 0.1vw solid;
     }
-    column-gap: 70px;
+    column-gap: 4.5vw;
     span{
         font-family: 'Gilroy';
         font-style: normal;
         font-weight: 700;
-        font-size: 70px;
+        font-size: 4.5vw;
         line-height: 80%;
     }
 }

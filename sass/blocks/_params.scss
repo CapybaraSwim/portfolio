@@ -1,8 +1,8 @@
 .params__row{
     display: flex;
     overflow-x: scroll;
-    padding-bottom: 90px;
-    padding-right: 530px;
+    padding-bottom: 6.25vw;
+    padding-right: 27vw;
     &::-webkit-scrollbar{
         height: 2px;
     }
@@ -16,37 +16,45 @@
     }
 }
 .params{
-    padding-left: 258px;
-    padding-top: 58px;
+    padding-left: 13.4vw;
+    padding-top: 3.02vw;
+}
+.params__img{
+    img{
+        width: 30vw;
+    }
 }
 .params__title{
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 3.65vw;
     line-height: 80%;
     display: flex;
     align-items: center;
-    width: 649px;
+    width: 33.8vw;
 }
 .params__scroll{
     display: flex;
-    padding-top: 50px;
-    column-gap:14px;
+    padding-top: 2.6vw;
+    column-gap:0.73vw;
 }
 .scroll__number{
     font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.1vw;
+    line-height: 1.35vw;
 }
 .arrows{
     display: flex;
-    column-gap: 17px;
-    padding-left: 36px;
+    column-gap: 0.89vw;
+    padding-left: 1.88vw;
     position: absolute;
-    left: 370px;
+    left: 19.27vw;
+    img{
+        width: 1vw;
+    }
 }
 .leftarr{
     transform: rotate(180deg);
@@ -55,12 +63,12 @@
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(5816%) hue-rotate(337deg) brightness(138%) contrast(100%);
 }
 .params__swipe{
-    padding-top: 24px;
+    padding-top: 1.25vw;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 14px;
+    font-size: 0.83vw;
+    line-height: 0.73vw;
     letter-spacing: 0.04em;
     position: absolute;
 }

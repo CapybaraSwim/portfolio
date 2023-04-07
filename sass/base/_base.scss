@@ -4,7 +4,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    font-size:16px;
+    font-size:1.33vw;
     color: #323232;
     background-color: #000;
     color: #fff;
@@ -14,8 +14,8 @@ body{
     padding: 0;
 }
 h2{
-    font-size: 120px;
-    line-height: 84px;
+    font-size: 8vw;
+    line-height: 5vw;
 }
 .title__orange{
     color: #FF4900;
@@ -23,25 +23,26 @@ h2{
 .title{
     font-family: 'Gilroy';
     font-style: normal;
-    font-size: 140px;
-    line-height: 100px;
+    font-size: 8.57vw;
+    line-height: 7.14vw;
     text-transform: lowercase;
     color: #fff;
     p:first-child{
-        padding-bottom: 30px;
+        padding-bottom: 2vw;
     }
 }
 .button{
+    border-radius: 18px;
     display: inline-block;
     box-sizing: border-box;
-    height: 54px;
-    border: 2px solid #FF4900;
-    padding: 14px 45px;
+    height: 4vw;
+    border: 0.2vw solid #FF4900;
+    padding: 1vw 2.3vw;
     font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1vw;
+    line-height: 2vw;
     &:hover{
         background-color: #FF4900;
         transition: background-color 0.3s ease-in;
@@ -50,36 +51,32 @@ h2{
 .points{
     display: flex;
     justify-content: space-between;
-    column-gap: 44px;
+    column-gap: 3vw;
     font-family: 'Proxima Nova';
-    font-size: 18px;
+    font-size: 1.1vw;
     position: relative;
     img{
         position: absolute;
-        margin-top: -25px;
+        margin-top: -1.7vw;
     }
     .number{
         transform: rotate(-90deg);
         transform-origin: top left;
-        margin-left: -5px;
+        margin-left: 0.3vw;
         color: #FF4900;
         font-weight: 600;
-        padding-bottom: 20px;
+        padding-bottom: 1.3vw;
     }
 }
 .pretitle{
-    padding-bottom: 40px;
+    padding-bottom: 2.5vw;
     font-family: 'Gilroy';
     font-weight: 700;
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 0.9vw;
+    line-height: 1.6vw;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 footer{
-    padding-top: 185px;
+    padding-top: 12vw;
 }
-.container{
-    max-width: 1200px;
-}
-

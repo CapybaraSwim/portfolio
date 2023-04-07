@@ -1,70 +1,70 @@
 .feedback__section{
-    padding: 240px 0px 0px 132px;
+    padding: 12.5vw 0px 0px 6.88vw;
 }
 .feedback__title{
-    font-size: 120px;
-    line-height: 84px;
+    font-size: 8vw;
+    line-height: 5.5vw;
     font-weight: 700;
 }
 .feedback__row{
     display: flex;
-    padding-top: 127px;
-    column-gap: 97px;
+    padding-top: 9vw;
+    justify-content: space-between;
+    padding-right: 9vw;
 }
 .feedback__social{
-    width: 324px;
     p{
         font-family: 'Gilroy';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 2.5vw;
         line-height: 80%;
-        padding-bottom: 50px;
+        padding-bottom: 2.7vw;
     }
     a{
         font-family: 'Gilroy';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
-        line-height: 14px;
+        font-size: 1vw;
+        line-height: 0.9vw;
         text-transform: capitalize;
-        padding-top: 30px;
+        padding-top: 2vw;
     }
 }
 .feedback__form{
     p{
-        padding-bottom: 20px;
+        padding-bottom: 1.3vw;
         font-family: 'Proxima Nova';
         font-style: normal;
         font-weight: 600;
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 1.1vw;
+        line-height: 1.86vw;
     }
     label{
         display: block;
-        padding-bottom: 35px;
+        padding-bottom: 2.4vw;
     }
     label:last-child{
-        padding-bottom: 60px;
+        padding-bottom: 4.17vw;
     }
     input{
-        width: 671px;
+        width: 55vw;
         background-color: #000;
-        border-bottom: 1px #fff solid;
+        border-bottom: 0.1vw #fff solid;
         color: #fff;
     }
     textarea{
         background-color: #000;
-        border-bottom: 1px #fff solid;
+        border-bottom: 0.1vw #fff solid;
         color: #fff;
         resize: none;
-        width: 671px;
+        width: 55vw;
     }
     a{
         font-family: 'Proxima Nova';
         font-style: normal;
         font-weight: 600;
-        font-size: 18px;
-        line-height: 27px;
+        font-size: 1.1vw;
+        line-height: 1.8vw;
     }
 }

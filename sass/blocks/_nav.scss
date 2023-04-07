@@ -3,13 +3,13 @@
         display: flex;
     }
     li{
-        margin-left: 40px;
+        margin-left: 2.7vw;
     }
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 0.9vw;
+    line-height: 1.8vw;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     position: relative;
@@ -19,9 +19,14 @@
         transition: color 0.2s ease-in;
     }
 }
+.logo{
+    img{
+        width: 6vw;
+    }
+}
 .nav__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 61px 90px 61px 90px;
+    padding: 4.2vw 6.25vw 3.18vw 4.69vw;
 }

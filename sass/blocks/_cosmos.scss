@@ -1,50 +1,63 @@
 .cosmos{
-    padding: 240px 0px 257px 0px;
+    padding: 16.6vw 0px 17.85vw 0px;
     position: relative;
 }
 .cosmos__title{
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
-    font-size: 120px;
-    line-height: 84px;
+    font-size: 8vw;
+    line-height: 5.6vw;
     white-space: nowrap;
 }
 .cosmos__row{
-    padding: 95px 216px 0px 216px;
+    padding: 6.6vw 15vw 0px 15vw;
     display: flex;
-    column-gap: 86px;
+    column-gap: 6vw;
 }
 .cosmos__text{
     font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-    padding-bottom: 79px;
+    font-size: 1vw;
+    line-height: 1.7vw;
+    padding-bottom: 5.5vw;
     position: relative;
     z-index: 9;
 }
 .cosmos__content{
     .social__network{
-        padding-bottom: 30px;
+        padding-bottom: 2vw;
     }
 }
 .hashtag{
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 14px;
+    font-size: 1vw;
+    line-height: 0.9vw;
     letter-spacing: 0.04em;
-    padding-top: 30px;
+    padding-top: 20vw;
 }
 .cosmos__background{
     position: absolute;
     z-index: 0;
-    top: -80px;
+    top:0%;
+    img{
+        width: 60vw;
+        height:auto;
+    }
 }
 .video{
     position: relative;
     z-index: 1;
+    top:5%;
+    left:-9%;
+    width: 43vw;
+    height: auto;
+    max-height: 100%;
+    img{
+        width: 60vw;
+        height:auto;
+    }
 }
