@@ -113,7 +113,7 @@ h2 {
           transform: rotate(-90deg);
   -webkit-transform-origin: top left;
           transform-origin: top left;
-  margin-left: 0.3vw;
+  margin-left: -0.2vw;
   color: #FF4900;
   font-weight: 600;
   padding-bottom: 1.3vw;
@@ -162,6 +162,49 @@ footer {
   width: 6vw;
 }
 
+.nav__burger-btn {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #000000;
+  z-index: 11;
+}
+.nav__burger-btn span {
+  -webkit-transition: opacity .5s, -webkit-transform .5s;
+  transition: opacity .5s, -webkit-transform .5s;
+  transition: transform .5s, opacity .5s;
+  transition: transform .5s, opacity .5s, -webkit-transform .5s;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  left: 5px;
+  background-color: #ffffff;
+}
+.nav__burger-btn span:nth-child(1) {
+  -webkit-transform: translateY(-9px);
+          transform: translateY(-9px);
+}
+.nav__burger-btn span:nth-child(3) {
+  -webkit-transform: translateY(9px);
+          transform: translateY(9px);
+}
+
+.header.open .nav__burger-btn span:nth-child(1) {
+  -webkit-transform: translateY(0) rotate(45deg);
+          transform: translateY(0) rotate(45deg);
+}
+
+.header.open .nav__burger-btn span:nth-child(2) {
+  opacity: 0;
+}
+
+.header.open .nav__burger-btn span:nth-child(3) {
+  -webkit-transform: translateY(0) rotate(-45deg);
+          transform: translateY(0) rotate(-45deg);
+}
+
 .nav__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,6 +216,12 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   padding: 4.2vw 6.25vw 3.18vw 4.69vw;
+}
+
+.navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -30px;
 }
 
 .key {
@@ -452,7 +501,7 @@ body::-webkit-scrollbar-thumb {
   padding-top: 5.21vw;
   font-family: 'Proxima Nova';
   font-size: 1.2vw;
-  line-height: 1.4vw;
+  line-height: 1.7vw;
   max-width: 23.6vw;
 }
 .team__text p {
@@ -533,6 +582,30 @@ body::-webkit-scrollbar-thumb {
 
 input {
   display: block;
+}
+
+.set__radio a {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.set__radio a:after {
+  background-color: #ff6000;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+
+.set__radio a:hover:after,
+.set__radio a:focus:after {
+  width: 100%;
 }
 
 .feedback__section {
@@ -800,6 +873,38 @@ input {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .nav__burger-btn {
+    display: block;
+  }
+
+  .navigation__list-burger {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    border: #464545 1px solid;
+    padding: 75px 20px 20px 20px;
+    width: 150px;
+    left: -150px;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+    z-index: 10;
+  }
+  .navigation__list-burger ul {
+    display: block;
+  }
+  .navigation__list-burger .menu__link {
+    color: #ffffff;
+    display: block;
+  }
+
+  .header.open .navigation-list {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 
   .feedback__button a {
@@ -1542,8 +1647,8 @@ input {
     width: 130px;
   }
   .team .team__row {
-    -webkit-column-gap: 30px;
-            column-gap: 30px;
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
   }
   .team .person {
     padding-bottom: 120px;
@@ -1558,6 +1663,7 @@ input {
   }
   .team .team__text {
     height: 250px;
+    width: 200px;
     overflow: auto;
   }
   .team .team__title {
@@ -1628,6 +1734,7 @@ input {
   }
   .feedback .feedback__form textarea {
     width: 300px;
+    height: 80px;
   }
 }
 @font-face {

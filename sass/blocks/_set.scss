@@ -59,3 +59,24 @@
 input{
     display: block;
 }
+.set__radio a {
+    display: inline-block;
+    color: #ffffff;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.set__radio a:after {
+    background-color: #ff6000;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.set__radio a:hover:after,
+.set__radio a:focus:after {
+    width: 100%;
+}

@@ -16,6 +16,31 @@
         max-width: 350px;
         flex-direction: column;
     }
+    .nav__burger-btn{
+        display: block;
+    }
+    .navigation__list-burger{
+        position: absolute;
+        left: 0;
+        top:0;
+        background-color: #000;
+        border: #464545 1px solid;
+        padding: 75px 20px 20px 20px;
+        width: 150px;
+        left:-150px;
+        transition: transform .5s;
+        z-index: 10;
+        ul{
+            display: block;
+        }
+        .menu__link{
+            color: #ffffff;
+            display: block;
+        }
+    }
+    .header.open .navigation-list{
+        transform: translateX(100%);
+    }
     .feedback__button{
         a{
             font-size: 14px;
@@ -723,8 +748,6 @@
         padding-top: 70px;
         .team__text{
             font-size: 13px;
-            p{
-            }
         }
         .person{
             img{
@@ -732,7 +755,7 @@
             }
         }
         .team__row{
-            column-gap: 30px;
+            column-gap: 40px;
         }
         .person{
             padding-bottom: 120px;
@@ -747,6 +770,7 @@
         }
         .team__text{
             height: 250px;
+            width: 200px;
             overflow: auto;
         }
         .team__title{
@@ -815,6 +839,7 @@
             }
             textarea{
                 width: 300px;
+                height: 80px;
             }
         }
     }
