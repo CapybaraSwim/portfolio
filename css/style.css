@@ -446,8 +446,8 @@ body::-webkit-scrollbar-thumb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 4.27vw;
-          column-gap: 4.27vw;
+  -webkit-column-gap: 14vw;
+          column-gap: 14vw;
 }
 
 .person img {
