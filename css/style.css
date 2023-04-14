@@ -690,6 +690,8 @@ input {
   overflow-x: scroll;
   padding-bottom: 6.25vw;
   padding-right: 27vw;
+  -webkit-column-gap: 3vw;
+          column-gap: 3vw;
 }
 .params__row::-webkit-scrollbar {
   height: 2px;
@@ -709,7 +711,7 @@ input {
 }
 
 .params__img img {
-  width: 30vw;
+  width: 36vw;
 }
 
 .params__title {
@@ -886,8 +888,8 @@ input {
     background-color: #000;
     border: #464545 1px solid;
     padding: 75px 20px 20px 20px;
-    width: 600px;
-    left: -600px;
+    width: 350px;
+    left: -350px;
     height: 100%;
     -webkit-transition: -webkit-transform .5s;
     transition: -webkit-transform .5s;
@@ -1041,6 +1043,10 @@ input {
   .problems .problems__row div {
     padding-top: 20px;
   }
+  .problems .problems__row img {
+    width: 13px;
+    padding-top: 4px;
+  }
   .problems img {
     width: 8px;
   }
@@ -1119,12 +1125,16 @@ input {
     font-size: 14px;
   }
 
+  .hashtag {
+    font-size: 10px;
+  }
+
   header .navigation__list-burger li {
-    font-size: 20px;
+    font-size: 15px;
   }
   header .navigation__list-burger li a {
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .pencil {
@@ -1477,6 +1487,10 @@ input {
   .problems .problems__row div {
     padding-top: 20px;
   }
+  .problems .problems__row img {
+    width: 13px;
+    padding-top: 4px;
+  }
   .problems img {
     width: 8px;
   }
@@ -1669,12 +1683,16 @@ input {
     font-size: 20px;
   }
 
+  .hashtag {
+    font-size: 10px;
+  }
+
   header .navigation__list-burger li {
-    font-size: 20px;
+    font-size: 15px;
   }
   header .navigation__list-burger li a {
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .team {

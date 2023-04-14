@@ -3,6 +3,7 @@
     overflow-x: scroll;
     padding-bottom: 6.25vw;
     padding-right: 27vw;
+    column-gap: 3vw;
     &::-webkit-scrollbar{
         height: 2px;
     }
@@ -21,7 +22,7 @@
 }
 .params__img{
     img{
-        width: 30vw;
+        width: 36vw;
     }
 }
 .params__title{

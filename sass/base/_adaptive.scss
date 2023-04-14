@@ -26,8 +26,8 @@
         background-color: #000;
         border: #464545 1px solid;
         padding: 75px 20px 20px 20px;
-        width: 600px;
-        left:-600px;
+        width: 350px;
+        left:-350px;
         height: 100%;
         transition: transform .5s;
         z-index: 10;
@@ -169,6 +169,10 @@
             }
             padding-bottom: 16px;
             padding-left: 4px;
+            img{
+                width: 13px;
+                padding-top: 4px;
+            }
         }
         img{
             width: 8px;
@@ -248,14 +252,17 @@
             }
         }
     }
+    .hashtag{
+        font-size: 10px;
+    }
     header{
         .navigation__list-burger{
             li{
                 a{
                     padding-top: 5px;
-                    font-size: 20px;
+                    font-size: 15px;
                 }
-                font-size: 20px;
+                font-size: 15px;
             }
         }
     }
@@ -592,6 +599,10 @@
             }
             padding-bottom: 16px;
             padding-left: 4px;
+            img{
+                width: 13px;
+                padding-top: 4px;
+            }
         }
         img{
             width: 8px;
@@ -779,14 +790,17 @@
             }
         }
     }
+    .hashtag{
+        font-size: 10px;
+    }
     header{
         .navigation__list-burger{
             li{
                 a{
                     padding-top: 5px;
-                    font-size: 20px;
+                    font-size: 15px;
                 }
-                font-size: 20px;
+                font-size: 15px;
             }
         }
     }
