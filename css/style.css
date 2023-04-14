@@ -886,8 +886,9 @@ input {
     background-color: #000;
     border: #464545 1px solid;
     padding: 75px 20px 20px 20px;
-    width: 150px;
-    left: -150px;
+    width: 600px;
+    left: -600px;
+    height: 100%;
     -webkit-transition: -webkit-transform .5s;
     transition: -webkit-transform .5s;
     transition: transform .5s;
@@ -1028,11 +1029,17 @@ input {
     padding-bottom: 40px;
   }
   .problems .problems__row {
-    padding-bottom: 15px;
+    display: block;
+    padding-bottom: 16px;
     padding-left: 4px;
   }
   .problems .problems__row p {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 0;
+    line-height: 15px;
+  }
+  .problems .problems__row div {
+    padding-top: 20px;
   }
   .problems img {
     width: 8px;
@@ -1112,6 +1119,14 @@ input {
     font-size: 14px;
   }
 
+  header .navigation__list-burger li {
+    font-size: 20px;
+  }
+  header .navigation__list-burger li a {
+    padding-top: 5px;
+    font-size: 20px;
+  }
+
   .pencil {
     margin: 30px 0px 0px 20px;
   }
@@ -1146,10 +1161,15 @@ input {
     padding-bottom: 40px;
   }
   .pencil .pencil__row_points {
+    display: block;
     padding-left: 10px;
   }
   .pencil .pencil__row_points p {
-    font-size: 10px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .pencil .pencil__row_points div {
+    padding-top: 20px;
   }
 
   .cosmos {
@@ -1281,12 +1301,12 @@ input {
     width: 10px;
     height: 10px;
     left: -5px;
-    top: 6px;
+    top: 3px;
   }
   .set .set__radio .white::before {
     width: 10px;
     height: 10px;
-    top: 6px;
+    top: 3px;
     left: -5px;
   }
 
@@ -1361,6 +1381,7 @@ input {
   }
 
   .key {
+    overflow: hidden;
     line-height: 12px;
     padding-left: 20px;
   }
@@ -1370,10 +1391,11 @@ input {
   .key .key__row {
     -webkit-column-gap: 0px;
             column-gap: 0px;
+    overflow: hidden;
   }
   .key .key-background__img {
     top: 25px;
-    left: 20px;
+    left: 0px;
   }
   .key .key__content {
     position: relative;
@@ -1391,14 +1413,14 @@ input {
   }
   .key .key-background__img {
     top: 0px;
-    left: 20px;
+    left: -10px;
   }
   .key .key-background__img img {
     width: 330px;
   }
   .key .key__img {
     top: 20px;
-    left: 10px;
+    left: -28px;
   }
   .key .key__img img {
     width: 270px;
@@ -1443,11 +1465,17 @@ input {
     padding-bottom: 40px;
   }
   .problems .problems__row {
-    padding-bottom: 15px;
+    display: block;
+    padding-bottom: 16px;
     padding-left: 4px;
   }
   .problems .problems__row p {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 0;
+    line-height: 15px;
+  }
+  .problems .problems__row div {
+    padding-top: 20px;
   }
   .problems img {
     width: 8px;
@@ -1560,10 +1588,15 @@ input {
     padding-bottom: 40px;
   }
   .pencil .pencil__row_points {
+    display: block;
     padding-left: 10px;
   }
   .pencil .pencil__row_points p {
-    font-size: 10px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .pencil .pencil__row_points div {
+    padding-top: 20px;
   }
 
   .feedback__button a {
@@ -1636,6 +1669,14 @@ input {
     font-size: 20px;
   }
 
+  header .navigation__list-burger li {
+    font-size: 20px;
+  }
+  header .navigation__list-burger li a {
+    padding-top: 5px;
+    font-size: 20px;
+  }
+
   .team {
     padding-left: 20px;
     padding-top: 70px;
@@ -1704,12 +1745,12 @@ input {
     width: 10px;
     height: 10px;
     left: -5px;
-    top: 6px;
+    top: 2px;
   }
   .set .set__radio .white::before {
     width: 10px;
     height: 10px;
-    top: 6px;
+    top: 2px;
     left: -5px;
   }
 
