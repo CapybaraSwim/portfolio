@@ -1341,6 +1341,9 @@ input {
   .feedback .feedback__social {
     display: none;
   }
+  .feedback .feedback__form {
+    padding-left: 10px;
+  }
   .feedback .feedback__form p {
     padding-top: 10px;
     font-size: 14px;
