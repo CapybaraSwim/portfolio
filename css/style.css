@@ -1344,9 +1344,11 @@ input {
     font-size: 14px;
   }
   .feedback .feedback__form input {
+    font-size: 13px;
     width: 250px;
   }
   .feedback .feedback__form textarea {
+    font-size: 13px;
     width: 250px;
   }
 
