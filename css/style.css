@@ -1141,10 +1141,6 @@ input {
     font-size: 15px;
   }
 
-  .pencil .pencil__row_main {
-    -webkit-column-gap: 0px;
-            column-gap: 0px;
-  }
   .pencil .pencil__text {
     width: 100px;
     font-size: 12px;
@@ -1152,9 +1148,12 @@ input {
   }
   .pencil .pencil__row_img {
     padding-top: 50px;
+    position: absolute;
+    top: 1500px;
+    left: 50%;
   }
   .pencil .pencil__row_img img {
-    width: 190px;
+    width: 50vw;
   }
   .pencil .pencil__title p {
     font-size: 40px;
@@ -1345,10 +1344,10 @@ input {
     font-size: 14px;
   }
   .feedback .feedback__form input {
-    width: 300px;
+    width: 250px;
   }
   .feedback .feedback__form textarea {
-    width: 300px;
+    width: 250px;
   }
 
   .key .container {
@@ -1436,6 +1435,10 @@ input {
 
   .feedback .feedback__title p {
     line-height: 30px;
+  }
+
+  .feedback__form input {
+    font-size: 10px;
   }
 }
 /*@media(max-width: 350px){

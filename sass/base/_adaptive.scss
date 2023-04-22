@@ -269,7 +269,6 @@
     }
     .pencil{
         .pencil__row_main{
-            column-gap: 0px;
         }
         .pencil__text{
             width: 100px;
@@ -278,8 +277,11 @@
         }
         .pencil__row_img{
             padding-top: 50px;
+            position: absolute;
+            top: 1500px;
+            left: 50%;
             img{
-                width: 190px;
+                width: 50vw;
             }
         }
         .pencil__title{
@@ -470,10 +472,10 @@
                 font-size: 14px;
             }
             input{
-                width: 300px;
+                width: 250px;
             }
             textarea{
-                width: 300px;
+                width: 250px;
             }
         }
     }
@@ -570,6 +572,11 @@
             p{
             line-height: 30px;
             }
+        }
+    }
+    .feedback__form{
+        input{
+            font-size: 10px;
         }
     }
 }
