@@ -133,6 +133,10 @@ footer {
   padding-top: 12vw;
 }
 
+.unscroll {
+  overflow: hidden;
+}
+
 .navigation-list {
   font-family: "Gilroy";
   font-style: normal;
@@ -883,8 +887,8 @@ input {
     background-color: #000;
     border: #464545 1px solid;
     padding: 75px 0px 20px 0px;
-    width: 350px;
-    left: -350px;
+    width: 100vw;
+    left: -100vw;
     height: 100%;
     -webkit-transition: -webkit-transform .5s;
     transition: -webkit-transform .5s;
@@ -975,25 +979,26 @@ input {
     font-size: 11px;
     line-height: 10px;
   }
-  .key .wrapper .container {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-right: 0;
-    margin-left: 0;
-  }
   .key .key-background__img {
-    top: 15%;
-    left: 3%;
+    top: 20%;
+    left: 10%;
   }
   .key .key-background__img img {
-    width: 90vw;
+    width: 70vw;
   }
   .key .key__img {
     padding-top: 15%;
     left: 3%;
   }
   .key .key__img img {
-    width: 80vw;
+    width: 60vw;
+  }
+
+  .wrapper .container {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .title {
@@ -1312,6 +1317,10 @@ input {
     height: 10px;
     top: 0px;
     left: -5px;
+  }
+  .set .set__button a {
+    font-size: 10px;
+    width: 120px;
   }
 
   .social__network {

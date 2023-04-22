@@ -37,6 +37,10 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector("header").classList.toggle("open")
   })
 })
+let html = document.querySelector("html")
+document.querySelector(".nav__burger-btn").onclick = function(){
+html.classList.toggle("unscroll")
+}
 
 let headerBgTitle = document.getElementById('header__bg-title-scene');
 let headerBgTitleInstance = new Parallax(headerBgTitle);
