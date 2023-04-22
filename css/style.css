@@ -52,7 +52,7 @@ body {
 
 h2 {
   font-size: 8vw;
-  line-height: 5vw;
+  line-height: 7.14vw;
 }
 
 .title__orange {
@@ -78,11 +78,11 @@ h2 {
           box-sizing: border-box;
   height: 4vw;
   border: 0.2vw solid #FF4900;
-  padding: 1vw 2.3vw;
+  padding: 1.2vw 2.3vw;
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 600;
-  font-size: 1vw;
+  font-size: 1.1vw;
   line-height: 12px;
 }
 .button:hover {
@@ -857,19 +857,14 @@ input {
   max-width: 1920px;
 }
 
-/*@media(max-width:1200px){
-    .container{
-        max-width: 750px;
-        flex-direction: column;
-    }
-
-}*/
-@media (max-width: 767px) {
+@media (max-width: 420px) {
   * {
     line-height: 26px;
   }
 
   .container {
+    margin-right: 25px;
+    margin-left: 25px;
     max-width: 350px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -887,7 +882,7 @@ input {
     top: 0;
     background-color: #000;
     border: #464545 1px solid;
-    padding: 75px 20px 20px 20px;
+    padding: 75px 0px 20px 0px;
     width: 350px;
     left: -350px;
     height: 100%;
@@ -934,7 +929,7 @@ input {
     font-size: 10px;
   }
   .nav .nav__row {
-    padding: 15px 25px 40px 25px;
+    padding: 0px 0px 40px 0px;
   }
 
   .logo img {
@@ -953,7 +948,7 @@ input {
   }
 
   .key {
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .key .key__button a {
     font-size: 8px;
@@ -964,7 +959,7 @@ input {
   }
   .key .key-background__img {
     top: 25px;
-    left: 20px;
+    left: 0px;
   }
   .key .key__content {
     position: relative;
@@ -973,26 +968,32 @@ input {
   .key .key__content p:first-child {
     padding-bottom: 25px;
     font-size: 11px;
-    line-height: 10px;
+    line-height: 13px;
   }
   .key .key__content .price {
     padding-bottom: 15px;
     font-size: 11px;
     line-height: 10px;
   }
+  .key .wrapper .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0;
+    margin-left: 0;
+  }
   .key .key-background__img {
-    top: 0px;
-    left: 60px;
+    top: 15%;
+    left: 3%;
   }
   .key .key-background__img img {
-    width: 330px;
+    width: 90vw;
   }
   .key .key__img {
-    top: 40px;
-    left: 50px;
+    padding-top: 15%;
+    left: 3%;
   }
   .key .key__img img {
-    width: 270px;
+    width: 80vw;
   }
 
   .title {
@@ -1023,8 +1024,6 @@ input {
   .problems {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 23px;
-    padding-right: 0px;
     padding-bottom: 20px;
   }
   .problems .problems__title {
@@ -1041,7 +1040,7 @@ input {
     line-height: 15px;
   }
   .problems .problems__row div {
-    padding-top: 20px;
+    padding-top: 35px;
   }
   .problems .problems__row img {
     width: 13px;
@@ -1069,7 +1068,7 @@ input {
 
   .unkillable {
     padding-top: 0px;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .unkillable .unkillable__container {
     padding-left: 0px;
@@ -1077,8 +1076,8 @@ input {
   .unkillable .unkillable_img {
     position: relative;
     z-index: 1;
-    padding: 15px 0px 0px 20px;
-    left: 40px;
+    position: 2%;
+    padding-left: 0%;
   }
   .unkillable .unkillable_img img {
     width: 270px;
@@ -1094,7 +1093,7 @@ input {
   }
 
   .params {
-    padding-left: 20px;
+    padding-left: 0px;
     padding-bottom: 20px;
   }
   .params .params__title {
@@ -1137,9 +1136,6 @@ input {
     font-size: 15px;
   }
 
-  .pencil {
-    margin: 30px 0px 0px 20px;
-  }
   .pencil .pencil__row_main {
     -webkit-column-gap: 0px;
             column-gap: 0px;
@@ -1153,7 +1149,7 @@ input {
     padding-top: 50px;
   }
   .pencil .pencil__row_img img {
-    width: 210px;
+    width: 190px;
   }
   .pencil .pencil__title p {
     font-size: 40px;
@@ -1179,14 +1175,9 @@ input {
     line-height: 15px;
   }
   .pencil .pencil__row_points div {
-    padding-top: 20px;
+    padding-top: 35px;
   }
 
-  .cosmos {
-    padding: 0px;
-    padding-top: 30px;
-    padding-left: 0px;
-  }
   .cosmos .cosmos__text {
     padding-bottom: 40px;
   }
@@ -1195,11 +1186,16 @@ input {
   }
   .cosmos .cosmos__row {
     display: block;
-    padding: 20px 0px 20px 0px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10%;
+  }
+  .cosmos .cosmos__content {
+    width: 70vw;
   }
   .cosmos video {
-    width: 300px;
-    padding-left: 70px;
+    padding-right: 10px;
+    width: 80vw;
     padding-bottom: 20px;
     height: 230px;
   }
@@ -1220,7 +1216,7 @@ input {
     width: 770px;
   }
   .cosmos .hashtag {
-    padding-top: 15px;
+    padding-top: 0px;
   }
   .cosmos .cosmos__content {
     padding-left: 20px;
@@ -1228,7 +1224,6 @@ input {
 
   .buy {
     overflow-y: hidden;
-    padding-left: 20px;
   }
   .buy .buy__container {
     padding: 0;
@@ -1237,9 +1232,6 @@ input {
     padding-bottom: 40px;
   }
   .buy .buy__row {
-    padding-right: 10px;
-    padding-top: 12px;
-    padding-left: 5px;
     -webkit-column-gap: 15px;
             column-gap: 15px;
     overflow: hidden;
@@ -1249,7 +1241,7 @@ input {
   }
 
   .team {
-    padding-left: 20px;
+    padding-left: 0px;
     padding-top: 70px;
   }
   .team .team__text {
@@ -1283,23 +1275,25 @@ input {
     padding-bottom: 40px;
   }
 
-  .set {
-    padding: 140px 0px 0px 0px;
-  }
   .set span {
     font-size: 15px;
   }
   .set .set__title {
     padding-bottom: 30px;
   }
+  .set .set__title p {
+    font-size: 10vw;
+  }
   .set .set__row {
-    -webkit-column-gap: 40px;
-            column-gap: 40px;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
   .set .set__img img {
     width: 240px;
     padding-top: 50px;
-    padding-left: 110px;
+    padding-left: 90px;
   }
   .set .set__radio {
     padding-right: 130px;
@@ -1311,12 +1305,12 @@ input {
     width: 10px;
     height: 10px;
     left: -5px;
-    top: 3px;
+    top: 0px;
   }
   .set .set__radio .white::before {
     width: 10px;
     height: 10px;
-    top: 3px;
+    top: 0px;
     left: -5px;
   }
 
@@ -1325,7 +1319,7 @@ input {
   }
 
   .feedback {
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .feedback .feedback__row {
     padding-top: 50px;
@@ -1347,455 +1341,531 @@ input {
   .feedback .feedback__form textarea {
     width: 300px;
   }
-}
-@media (max-width: 350px) {
-  body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
 
-  .container {
-    overflow-x: hidden;
-    max-width: none;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  .nav li {
-    margin-left: 10px;
-  }
-  .nav .navigation-list {
-    font-size: 9px;
-  }
-  .nav .navigation-list li {
-    font-size: 9px;
-  }
-  .nav .nav__row {
-    padding: 15px 25px 40px 25px;
-  }
-
-  .logo img {
-    width: 50px;
-  }
-
-  .button {
-    font-size: 12px;
-    height: 30px;
-    padding: 10px 15px;
-  }
-  .button border {
-    border: 1px;
-  }
-
-  .key {
-    overflow: hidden;
-    line-height: 12px;
-    padding-left: 20px;
-  }
-  .key .key__button a {
-    font-size: 8px;
-  }
-  .key .key__row {
-    -webkit-column-gap: 0px;
-            column-gap: 0px;
-    overflow: hidden;
-  }
-  .key .key-background__img {
-    top: 25px;
-    left: 0px;
-  }
-  .key .key__content {
-    position: relative;
-    padding-top: 20px;
-  }
-  .key .key__content p:first-child {
-    padding-bottom: 25px;
-    font-size: 11px;
-    line-height: 15px;
-  }
-  .key .key__content .price {
-    padding-bottom: 15px;
-    font-size: 11px;
-    line-height: 15px;
-  }
-  .key .key-background__img {
-    top: 0px;
-    left: -10px;
-  }
-  .key .key-background__img img {
-    width: 330px;
-  }
-  .key .key__img {
-    top: 20px;
-    left: -28px;
-  }
-  .key .key__img img {
-    width: 270px;
-  }
-  .key .button {
-    width: 105px;
-  }
-
-  .title {
-    font-size: 40px;
-    line-height: 30px;
-  }
-  .title p:first-child {
-    padding-bottom: 10px;
-  }
-
-  .pretitle {
-    padding-bottom: 10px;
-    padding-top: 5px;
-    font-size: 8px;
-  }
-
-  .points {
-    -webkit-column-gap: 20px;
-            column-gap: 20px;
-  }
-  .points img {
-    margin-top: -15px;
-  }
-  .points .number {
-    padding-bottom: 10px;
+  .key .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .problems {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 23px;
-    padding-right: 0px;
-    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
-  .problems .problems__title {
-    padding-bottom: 40px;
-  }
-  .problems .problems__row {
-    display: block;
-    padding-bottom: 16px;
-    padding-left: 4px;
-  }
-  .problems .problems__row p {
-    font-size: 14px;
-    padding: 0;
-    line-height: 15px;
-  }
-  .problems .problems__row div {
-    padding-top: 20px;
-  }
-  .problems .problems__row img {
-    width: 13px;
-    padding-top: 4px;
-  }
-  .problems img {
-    width: 8px;
-  }
-  .problems .problems__row {
-    padding-bottom: 0px;
+  .problems .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  h2 {
-    font-size: 30px;
-    line-height: 20px;
-  }
-
-  .points {
-    font-size: 10px;
-  }
-
-  .number p {
-    font-size: 9px;
-  }
-
-  .unkillable {
-    padding-top: 0px;
-    padding-left: 20px;
-  }
-  .unkillable .unkillable__container {
-    padding-left: 0px;
-  }
-  .unkillable .unkillable_img {
-    position: relative;
-    z-index: 1;
-    padding: 15px 0px 0px 20px;
-  }
-  .unkillable .unkillable_img img {
-    width: 270px;
-  }
-  .unkillable .unkillable-background__image {
-    position: absolute;
-    z-index: 0;
-    right: -65px;
-    top: 20px;
-  }
-  .unkillable .unkillable-background__image img {
-    width: 330px;
-  }
-
-  .params {
-    padding-left: 20px;
-    padding-bottom: 20px;
-  }
-  .params .params__title {
-    font-size: 30px;
-    width: 300px;
-  }
-  .params .arrows {
-    display: none;
-  }
-  .params .params__img img {
-    width: 250px;
-  }
-  .params .params__container {
-    width: 500px;
-  }
-  .params .params__row {
-    -webkit-column-gap: 10px;
-            column-gap: 10px;
-    padding-bottom: 45px;
-  }
-  .params .params__swipe {
-    font-size: 13px;
-  }
-  .params .params__scroll img {
-    width: 17px;
-  }
-  .params .params__scroll p {
-    font-size: 14px;
+  .params .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .pencil {
-    margin: 30px 0px 0px 20px;
-  }
-  .pencil .pencil__row_main {
-    -webkit-column-gap: 0px;
-            column-gap: 0px;
-  }
-  .pencil .pencil__text {
-    width: 100px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-  .pencil .pencil__row_img {
-    padding-top: 50px;
-  }
-  .pencil .pencil__row_img img {
-    width: 150px;
-  }
-  .pencil .pencil__title p {
-    font-size: 40px;
-  }
-  .pencil .pencil__text {
-    font-size: 14px;
-  }
-  .pencil .pencil__row_main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   .pencil .pencil__row_points {
-    display: block;
-    padding-left: 10px;
-  }
-  .pencil .pencil__row_points p {
-    font-size: 15px;
-    line-height: 15px;
-  }
-  .pencil .pencil__row_points div {
-    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .feedback__button a {
-    font-size: 14px;
-  }
-
-  .cosmos {
-    padding: 0px;
-    padding-top: 30px;
-    padding-left: 0px;
-  }
-  .cosmos .cosmos__text {
-    padding-bottom: 40px;
-  }
-  .cosmos .cosmos__text p {
-    font-size: 15px;
-  }
-  .cosmos .cosmos__row {
-    display: block;
-    padding: 20px 0px 20px 0px;
-  }
-  .cosmos video {
-    width: 300px;
-    padding-left: 70px;
-    padding-bottom: 20px;
-    height: 230px;
-  }
-  .cosmos .video__container {
-    padding-bottom: 20px;
-  }
-  .cosmos .cosmos__pretitle {
-    padding-left: 0px;
-  }
-  .cosmos .cosmos__title {
-    padding-left: 0px;
-  }
-  .cosmos .cosmos__background {
-    top: -310px;
-    left: 0px;
-  }
-  .cosmos .cosmos__background img {
-    width: 770px;
-  }
-  .cosmos .hashtag {
-    padding-top: 15px;
-  }
   .cosmos .cosmos__content {
-    padding-left: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .buy {
-    overflow-y: hidden;
-    padding-left: 20px;
-  }
-  .buy .buy__container {
-    padding: 0;
-  }
-  .buy .buy__title {
-    padding-bottom: 40px;
-  }
-  .buy .buy__row {
-    padding-right: 10px;
-    padding-top: 12px;
-    padding-left: 5px;
-    -webkit-column-gap: 15px;
-            column-gap: 15px;
-    overflow: hidden;
-  }
-  .buy .buy__row span {
-    font-size: 20px;
+  .buy .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 40px;
   }
 
-  .hashtag {
-    font-size: 10px;
-  }
-
-  header .navigation__list-burger li {
-    font-size: 15px;
-  }
-  header .navigation__list-burger li a {
-    padding-top: 5px;
-    font-size: 15px;
-  }
-
-  .team {
-    padding-left: 20px;
-    padding-top: 70px;
-  }
-  .team .team__text {
-    font-size: 13px;
-  }
-  .team .person img {
-    width: 130px;
-  }
-  .team .team__row {
-    -webkit-column-gap: 40px;
-            column-gap: 40px;
-  }
-  .team .person {
-    padding-bottom: 120px;
-  }
-  .team .social__network {
-    font-size: 10px;
-  }
-  .team .person__name {
-    top: 170px;
-    left: 10px;
-    font-size: 20px;
-  }
-  .team .team__text {
-    height: 250px;
-    width: 200px;
-    overflow: auto;
-  }
-  .team .team__title {
-    padding-bottom: 40px;
-  }
-
-  .social__network {
-    font-size: 10px;
+  .wrapper {
+    background: none;
   }
 
   .set {
-    padding: 140px 0px 0px 0px;
-  }
-  .set span {
-    font-size: 15px;
-  }
-  .set .button {
-    width: 140px;
-  }
-  .set .set__title {
-    padding-bottom: 30px;
-  }
-  .set .set__row {
-    -webkit-column-gap: 40px;
-            column-gap: 40px;
-  }
-  .set .set__img img {
-    padding-top: 50px;
-    width: 240px;
-  }
-  .set .set__radio {
-    padding-right: 130px;
-    -webkit-column-gap: 13px;
-            column-gap: 13px;
-    font-size: 10px;
-  }
-  .set .set__radio .grey::before {
-    width: 10px;
-    height: 10px;
-    left: -5px;
-    top: 2px;
-  }
-  .set .set__radio .white::before {
-    width: 10px;
-    height: 10px;
-    top: 2px;
-    left: -5px;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
   }
 
-  .feedback {
-    padding-left: 20px;
-  }
-  .feedback .feedback__row {
-    padding-top: 50px;
-  }
-  .feedback .feedback__section {
+  .header .container {
     padding-left: 0;
-    padding-top: 50px;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
-  .feedback .feedback__social {
-    display: none;
+
+  .unkillable .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
-  .feedback .feedback__form p {
-    font-size: 14px;
+
+  .problems .problems__title p {
+    line-height: 30px;
   }
-  .feedback .feedback__form input {
-    width: 300px;
-  }
-  .feedback .feedback__form textarea {
-    width: 300px;
-    height: 80px;
+
+  .feedback .feedback__title p {
+    line-height: 30px;
   }
 }
+/*@media(max-width: 350px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        margin-left: 14px;
+        margin-right: 14px;
+        overflow-x: hidden;
+        max-width: none;
+        flex-direction: column;
+    }
+    .nav{
+        li{
+            margin-left: 10px;
+        }
+        .navigation-list{
+            font-size: 9px;
+            li{
+                font-size: 9px;
+            }
+        }
+        .nav__row{
+            padding: 15px 25px 40px 25px;
+        }
+    }
+    .logo{
+        img{
+            width: 50px;
+        }
+    }
+    .button{
+        font-size: 12px;
+        border{
+            border: 1px;
+        }
+        height: 30px;
+        padding: 10px 15px;
+    }
+    .key{
+        margin-right: 0px;
+        line-height: 12px;
+        padding-left: 20px;
+        .key__button{
+            a{
+                font-size: 8px;
+            }
+        }
+        .key__row{
+            column-gap: 0px;
+            overflow: hidden;
+        }
+        .key-background__img{
+            top: 25px;
+            left: 0px;
+        }
+        .key__content{
+            position: relative;
+            padding-top: 20px;
+            p:first-child{
+                padding-bottom: 25px;
+                font-size: 11px;
+                line-height: 15px;
+            }
+            .price{
+                padding-bottom: 15px;
+                font-size: 11px;
+                line-height: 15px;
+            }
+        }
+        .key-background__img{
+            top:0px;
+            left: -10px;
+            img{
+                width: 330px;
+            }
+        }
+        .key__img{
+            top: 20px;
+            left: -28px;
+            img{
+                width: 270px;
+            }
+        }
+        .button{
+            width: 105px;
+        }
+    }
+    .title{
+        font-size: 40px;
+        line-height:30px;
+        p:first-child{
+            padding-bottom: 10px;
+        }
+    }
+    .pretitle{
+        padding-bottom: 10px;
+        padding-top: 5px;
+        font-size: 8px;
+    }
+    .points{
+        column-gap: 20px;
+        img{
+            margin-top: -15px;
+        }
+        .number{
+            padding-bottom: 10px;
+        }
+    }
+    .problems{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 23px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        .problems__title{
+            padding-bottom: 40px;
+        }
+        .problems__row{
+            display: block;
+            p{
+                font-size: 14px;
+                padding: 0;
+                line-height: 15px;
+            }
+            div{
+                padding-top: 35px;
+            }
+            padding-bottom: 16px;
+            padding-left: 4px;
+            img{
+                width: 13px;
+                padding-top: 4px;
+            }
+        }
+        img{
+            width: 8px;
+        }
+        .problems__row{
+            padding-bottom: 0px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .points{
+        font-size: 10px;
+    }
+    .number{
+        p{
+            font-size: 9px;
+        }
+    }
+    .unkillable{
+        padding-top: 0px;
+        padding-left: 20px;
+        .unkillable__container{
+            padding-left: 0px;
+        }
+        .unkillable_img{
+            position: relative;
+            z-index: 1;
+            padding: 15px 0px 0px 20px;
+            img{
+                width: 270px;
+            }
+        }
+        .unkillable-background__image{
+            position: absolute;
+            z-index: 0;
+            right: -65px;
+            top: 20px;
+            img{
+                width: 330px;
+            }
+        }
+    }
+    .params{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        .params__title{
+            font-size: 30px;
+            width: 300px;
+        }
+        .arrows{
+            display: none;
+        }
+        .params__img{
+            img{
+                width: 250px;
+            }
+        }
+        .params__container{
+            width: 500px;
+        }
+        .params__row{
+            column-gap: 10px;
+            padding-bottom: 45px;
+        }
+        .params__swipe{
+            font-size: 13px;
+        }
+        .params__scroll{
+            img{
+                width: 17px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .pencil{
+        margin: 30px 0px 0px 20px;
+        .pencil__row_main{
+            column-gap: 0px;
+        }
+        .pencil__text{
+            width: 100px;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        .pencil__row_img{
+            padding-top: 50px;
+            img{
+                width: 150px;
+            }
+        }
+        .pencil__title{
+            p{
+                font-size: 40px;
+            }
+        }
+        .pencil__text{
+            font-size: 14px;
+        }
+        .pencil__row_main{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 40px;
+        }
+        .pencil__row_points{
+            display: block;
+            padding-left: 10px;
+            p{
+                font-size: 15px;
+                line-height: 15px;
+            }
+            div{
+                padding-top: 35px;
+            }
+        }
+    }
+    .feedback__button{
+        a{
+            font-size: 14px;
+        }
+    }
+    .cosmos{
+        padding: 0px;
+        padding-top: 30px;
+        padding-left: 0px;
+        .cosmos__text{
+            padding-bottom: 40px;
+            p{
+                font-size: 15px;
+            }
+        }
+        .cosmos__row{
+            display: block;
+            padding: 20px 0px 20px 0px;
+        }
+        video{
+            width: 300px;
+            padding-left: 70px;
+            padding-bottom: 20px;
+            height: 230px;
+        }
+        .video__container{
+            padding-bottom: 20px;
+        }
+        .cosmos__pretitle{
+            padding-left: 0px;
+        }
+        .cosmos__title{
+            padding-left: 0px;
+        }
+        .cosmos__background{
+            img{
+                width:770px;
+            }
+            top: -310px;
+            left: 0px;
+        }
+        .hashtag{
+            padding-top: 15px;
+        }
+        .cosmos__content{
+            padding-left: 20px;
+        }
+    }
+    .buy{
+        overflow-y: hidden;
+        .buy__container{
+            padding: 0;
+        }
+        .buy__title{
+            padding-bottom: 40px;
+        }
+        padding-left: 20px;
+        .buy__row{
+            padding-right: 10px;
+            padding-top: 12px;
+            padding-left: 5px;
+            column-gap: 15px;
+            overflow: hidden;
+            span{
+                font-size: 20px;
+            }
+        }
+    }
+    .hashtag{
+        font-size: 10px;
+    }
+    header{
+        .navigation__list-burger{
+            li{
+                a{
+                    padding-top: 5px;
+                    font-size: 15px;
+                }
+                font-size: 15px;
+            }
+        }
+    }
+    .team{
+        padding-left: 20px;
+        padding-top: 70px;
+        .team__text{
+            font-size: 13px;
+        }
+        .person{
+            img{
+                width: 130px;
+            }
+        }
+        .team__row{
+            column-gap: 40px;
+        }
+        .person{
+            padding-bottom: 120px;
+        }
+        .social__network{
+            font-size: 10px;
+        }
+        .person__name{
+            top: 170px;
+            left:10px;
+            font-size: 20px;
+        }
+        .team__text{
+            height: 250px;
+            width: 200px;
+            overflow: auto;
+        }
+        .team__title{
+            padding-bottom: 40px;
+        }
+    }
+    .social__network{
+        font-size: 10px;
+    }
+    .set{
+        padding: 140px 0px 0px 0px;
+        span{
+            font-size: 15px;
+        }
+        .button{
+            width: 140px;
+        }
+        .set__title{
+            padding-bottom: 30px;
+        }
+        .set__row{
+            column-gap: 40px;
+        }
+        .set__img{
+            img{
+                padding-top: 50px;
+                width: 240px;
+            }
+        }
+        .set__radio{
+            padding-right: 130px;
+            column-gap: 13px;
+            font-size: 10px;
+            .grey::before{
+                width: 10px;
+                height: 10px;
+                left: -5px;
+                top: 0px;
+            }
+            .white::before{
+                width: 10px;
+                height: 10px;
+                top: 0px;
+                left: -5px;
+            }
+        }
+    }
+    .feedback{
+        padding-left: 20px;
+        .feedback__row{
+            padding-top: 50px;
+        }
+        .feedback__section{
+            padding-left: 0;
+            padding-top: 50px;
+        }
+        .feedback__social{
+            display: none;
+        }
+        .feedback__form{
+            p{
+                font-size: 14px;
+            }
+            input{
+                width: 300px;
+            }
+            textarea{
+                width: 300px;
+                height: 80px;
+            }
+        }
+    }
+}*/
 @font-face {
   font-family: 'SVN-Gilroy';
   src: url("../fonts/gilroy/SVN-GilroyLight.woff2") format("woff2"), url("../fonts/gilroy/SVN-GilroyLight.woff") format("woff");

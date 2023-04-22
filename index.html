@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <body>
     <div class="container">
       <header class="header">
@@ -39,8 +40,8 @@
       <section class="key">
         <div class="container">
           <div class="key__container">
-            <div class="key-background__img">
-              <img src="./img/header/main/vector.png" alt="">
+            <div class="key-background__img key__bg-title" id="key__bg-title-scene">
+              <img data-depth="0.1" src="./img/header/main/vector.png" alt="">
             </div>
             <div class="key__title title">
               <h1>
@@ -58,8 +59,8 @@
                   <a href="https://www.amazon.com/" target="_blank" class="button">Купить на Амазоне</a>
                 </div>
               </div>
-              <div class="key__img">
-                <img src="./img/header/main/nuka_notebook.png" alt="">
+              <div class="key__img header__bg-title" id="header__bg-title-scene">
+                <img data-depth="0.3" src="./img/header/main/nuka_notebook.png" alt="">
               </div>
             </div>
           </div>
@@ -72,8 +73,7 @@
               Вам это знакомо
             </div>
             <div class="problems__title title">
-              <h2><p>Эти <span class="title__orange">проблемы</span></p>
-                <p>задолбали нас всех</p></h2>
+              <h2><p>Эти <span class="title__orange">проблемы</span> <br> задолбали нас всех</p></h2>
             </div>
             <div class="problems__row points">
               <div>
@@ -105,11 +105,11 @@
               <h2><p class="title__orange cent">неубиваемый</p>
                 <p class="cent">блокнот</p></h2>
             </div>
-            <div class="unkillable_img">
-              <img src="./img/header/unkillable/notebook_light_gray.png" alt="">
+            <div class="unkillable_img ukillable__bg-title" id="unkillable__bg-title-scene">
+              <img data-depth="0.2" src="./img/header/unkillable/notebook_light_gray.png" alt="">
             </div>
-            <div class="unkillable-background__image">
-              <img src="./img/header/unkillable/vector.png" alt="">
+            <div class="unkillable-background__image ukillabl__bg-title" id="unkillabl__bg-title-scene">
+              <img data-depth="0.1" src="./img/header/unkillable/vector.png" alt="">
             </div>
           </div>
         </div>
@@ -172,8 +172,8 @@
                   Карандаш из цельного алюминия — совершенный и лишенный недостатков своего предшественника
                 </div>
               </div>
-              <div class="pencil__row_img">
-                <img src="./img/header/pencil/pencil.png" alt="#">
+              <div class="pencil__row_img pencil__bg-title" id="pencil__bg-title-scene">
+                <img data-depth="0.2" src="./img/header/pencil/pencil.png" alt="#">
               </div>
             </div>
             <div class="pencil__row_points points">
@@ -210,7 +210,7 @@
               <p class="title__orange">был в космосе</p></h2>
             </div>
             <div class="cosmos__row">
-              <div class="video-controls" id="video-controls">
+              <div class="video-controls cent" id="video-controls">
                 <video width="629" height="378" controls class="video" id="video" preload="metadata" poster="./img/header/cosmos/cosmos.png">
                   <source src="./video/planeta-zemlya-krasivoe-video_(VIDEOMIN.ORG).mp4" type="video/mp4"></source>
                 </video>
@@ -314,8 +314,8 @@
           </section>
           <section class="set">
             <div class="set__row">
-              <div class="set__img">
-                <img src="./img/header/set/setnotebooks.png" alt="">
+              <div class="set__img set__bg-title" id="set__bg-title-scene">
+                <img data-depth="0.2" src="./img/header/set/setnotebooks.png" alt="">
               </div>
               <div class="set__content">
                 <div class="set__title title">
@@ -346,8 +346,8 @@
               Будем благодарны за фидбэк
             </div>
             <div class="feedback__title title">
-              <p>Хотите нам</p>
-              <p class="title__orange">что-то сказать?</p> 
+              <p>Хотите нам
+              <span class="title__orange">что-то сказать?</span></p> 
             </div>
             <div class="feedback__row">
               <div class="feedback__social">

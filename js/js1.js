@@ -37,3 +37,16 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector("header").classList.toggle("open")
   })
 })
+
+let headerBgTitle = document.getElementById('header__bg-title-scene');
+let headerBgTitleInstance = new Parallax(headerBgTitle);
+
+let unkillableBgTitle = document.getElementById('unkillable__bg-title-scene');
+let unkillableBgTitleInstance = new Parallax(unkillableBgTitle);
+
+let unkillablBgTitle = document.getElementById('unkillabl__bg-title-scene');
+let unkillablBgTitleInstance = new Parallax(unkillablBgTitle);
+
+let keyBgTitle = document.getElementById('key__bg-title-scene');
+let keyBgTitleInstance = new Parallax(keyBgTitle);
+

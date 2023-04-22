@@ -1,18 +1,13 @@
 .container{
     max-width: 1920px;
 }
-/*@media(max-width:1200px){
-    .container{
-        max-width: 750px;
-        flex-direction: column;
-    }
-
-}*/
-@media(max-width:767px){
+@media(max-width:420px){
     *{
         line-height: 26px;
     }
     .container{
+        margin-right: 25px;
+        margin-left: 25px;
         max-width: 350px;
         flex-direction: column;
     }
@@ -25,7 +20,7 @@
         top:0;
         background-color: #000;
         border: #464545 1px solid;
-        padding: 75px 20px 20px 20px;
+        padding: 75px 0px 20px 0px;
         width: 350px;
         left:-350px;
         height: 100%;
@@ -66,7 +61,7 @@
             }
         }
         .nav__row{
-            padding: 15px 25px 40px 25px;
+            padding: 0px 0px 40px 0px;
         }
     }
     .logo{
@@ -85,7 +80,7 @@
         border-radius: 10px;
     }
     .key{
-        padding-left: 20px;
+        padding-left: 0px;
         .key__button{
             a{
                 font-size: 8px;
@@ -96,7 +91,7 @@
         }
         .key-background__img{
             top: 25px;
-            left: 20px;
+            left: 0px;
         }
         .key__content{
             position: relative;
@@ -104,7 +99,7 @@
             p:first-child{
                 padding-bottom: 25px;
                 font-size: 11px;
-                line-height: 10px;
+                line-height: 13px;
             }
             .price{
                 padding-bottom: 15px;
@@ -112,18 +107,26 @@
                 line-height: 10px;
             }
         }
+        .wrapper{
+            .container{
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
         .key-background__img{
-            top:0px;
-            left: 60px;
+            top:15%;
+            left: 3%;
             img{
-                width: 330px;
+                width: 90vw;
             }
         }
         .key__img{
-            top: 40px;
-            left: 50px;
+            padding-top: 15%;
+            left: 3%;
             img{
-                width: 270px;
+                width: 80vw;
             }
         }
     }
@@ -151,8 +154,6 @@
     .problems{
         margin-top: 0px;
         margin-bottom: 0px;
-        padding-left: 23px;
-        padding-right: 0px;
         padding-bottom: 20px;
         .problems__title{
             padding-bottom: 40px;
@@ -165,7 +166,7 @@
                 line-height: 15px;
             }
             div{
-                padding-top: 20px;
+                padding-top: 35px;
             }
             padding-bottom: 16px;
             padding-left: 4px;
@@ -195,15 +196,15 @@
     }
     .unkillable{
         padding-top: 0px;
-        padding-left: 20px;
+        padding-left: 0px;
         .unkillable__container{
             padding-left: 0px;
         }
         .unkillable_img{
             position: relative;
             z-index: 1;
-            padding: 15px 0px 0px 20px;
-            left: 40px;
+            position: 2%;
+            padding-left: 0%;
             img{
                 width: 270px;
             }
@@ -219,7 +220,7 @@
         }
     }
     .params{
-        padding-left: 20px;
+        padding-left: 0px;
         padding-bottom: 20px;
         .params__title{
             font-size: 30px;
@@ -267,7 +268,6 @@
         }
     }
     .pencil{
-        margin: 30px 0px 0px 20px;
         .pencil__row_main{
             column-gap: 0px;
         }
@@ -279,7 +279,7 @@
         .pencil__row_img{
             padding-top: 50px;
             img{
-                width: 210px;
+                width: 190px;
             }
         }
         .pencil__title{
@@ -303,14 +303,11 @@
                 line-height: 15px;
             }
             div{
-                padding-top: 20px;
+                padding-top: 35px;
             }
         }
     }
     .cosmos{
-        padding: 0px;
-        padding-top: 30px;
-        padding-left: 0px;
         .cosmos__text{
             padding-bottom: 40px;
             p{
@@ -319,11 +316,16 @@
         }
         .cosmos__row{
             display: block;
-            padding: 20px 0px 20px 0px;
+            margin: 0px;
+            padding: 0px;
+            padding-left: 10%;
+        }
+        .cosmos__content{
+            width: 70vw;
         }
         video{
-            width: 300px;
-            padding-left: 70px;
+            padding-right: 10px;
+            width: 80vw;
             padding-bottom: 20px;
             height: 230px;
         }
@@ -344,7 +346,7 @@
             left: 0px;
         }
         .hashtag{
-            padding-top: 15px;
+            padding-top: 0px;
         }
         .cosmos__content{
             padding-left: 20px;
@@ -358,11 +360,7 @@
         .buy__title{
             padding-bottom: 40px;
         }
-        padding-left: 20px;
         .buy__row{
-            padding-right: 10px;
-            padding-top: 12px;
-            padding-left: 5px;
             column-gap: 15px;
             overflow: hidden;
             span{
@@ -371,7 +369,7 @@
         }
     }
     .team{
-        padding-left: 20px;
+        padding-left: 0px;
         padding-top: 70px;
         .team__text{
             line-height: 26px;
@@ -406,21 +404,25 @@
         }
     }
     .set{
-        padding: 140px 0px 0px 0px;
         span{
             font-size: 15px;
         }
         .set__title{
             padding-bottom: 30px;
+            p{
+                font-size: 10vw;
+            }
         }
         .set__row{
-            column-gap: 40px;
+            column-gap: 20px;
+            padding-right: 25px;
+            padding-left: 25px;
         }
         .set__img{
             img{
                 width: 240px;
                 padding-top: 50px;
-                padding-left: 110px;
+                padding-left: 90px;
             }
         }
         .set__radio{
@@ -431,12 +433,12 @@
                 width: 10px;
                 height: 10px;
                 left: -5px;
-                top: 3px;
+                top: 0px;
             }
             .white::before{
                 width: 10px;
                 height: 10px;
-                top: 3px;
+                top: 0px;
                 left: -5px;
             }
         }
@@ -445,7 +447,7 @@
         font-size: 10px;
     }
     .feedback{
-        padding-left: 20px;
+        padding-left: 0px;
         .feedback__row{
             padding-top: 50px;
         }
@@ -469,14 +471,111 @@
             }
         }
     }
+    .key{
+        .container{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .problems{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        .container{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .params{
+        .container{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .pencil{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        .pencil__row_points{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .cosmos{
+        .cosmos__content{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .buy{
+        .container{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-top: 40px;
+        }
+    }
+    .wrapper{
+        background: none;
+    }
+    .set{
+        margin:0;
+        padding:0;
+        padding-top: 60px;
+    }
+    .header{
+        .container{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .unkillable{
+        .container{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .problems{
+        .problems__title{
+            p{
+                line-height: 30px;
+            }
+        }
+    }
+    .feedback{
+        .feedback__title{
+            p{
+                line-height: 30px;
+            }
+        }
+    }
 }
-@media(max-width: 350px){
+/*@media(max-width: 350px){
     body{
         width: 100%;
         margin: 0;
         padding: 0;
     }
     .container{
+        margin-left: 14px;
+        margin-right: 14px;
         overflow-x: hidden;
         max-width: none;
         flex-direction: column;
@@ -509,7 +608,7 @@
         padding: 10px 15px;
     }
     .key{
-        overflow: hidden;
+        margin-right: 0px;
         line-height: 12px;
         padding-left: 20px;
         .key__button{
@@ -595,7 +694,7 @@
                 line-height: 15px;
             }
             div{
-                padding-top: 20px;
+                padding-top: 35px;
             }
             padding-bottom: 16px;
             padding-left: 4px;
@@ -718,7 +817,7 @@
                 line-height: 15px;
             }
             div{
-                padding-top: 20px;
+                padding-top: 35px;
             }
         }
     }
@@ -869,12 +968,12 @@
                 width: 10px;
                 height: 10px;
                 left: -5px;
-                top: 2px;
+                top: 0px;
             }
             .white::before{
                 width: 10px;
                 height: 10px;
-                top: 2px;
+                top: 0px;
                 left: -5px;
             }
         }
@@ -904,4 +1003,4 @@
             }
         }
     }
-}
+}*/
