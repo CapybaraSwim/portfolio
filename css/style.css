@@ -1273,7 +1273,9 @@ input {
   }
   .team .team__text {
     height: 250px;
-    overflow: auto;
+    overflow-x: hidden;
+    padding-right: 0px;
+    margin-right: 0px;
   }
   .team .team__title {
     padding-bottom: 40px;
