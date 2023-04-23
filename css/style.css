@@ -77,7 +77,7 @@ h2 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0.2vw solid #FF4900;
-  padding: 15px 10px;
+  padding: 15px;
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 600;
@@ -134,6 +134,170 @@ footer {
 
 .unscroll {
   overflow: hidden;
+}
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input::-moz-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:-moz-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:-ms-input-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:focus:-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 4-18 */
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 19+ */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+/* IE 10+ */
+textarea::-webkit-textarea-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea::-moz-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:-moz-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:-ms-textarea-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::-webkit-textarea-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-ms-textarea-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::-webkit-textarea-placeholder {
+  color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 4-18 */
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 19+ */
+textarea:focus:-ms-textarea-placeholder {
+  color: transparent;
+}
+
+/* IE 10+ */
+textarea {
+  overflow: auto;
+  resize: none;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  outline: none;
+  -moz-appearance: none;
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+  font-size: 13px;
+}
+
+#scrollTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.isShowScrollTop {
+  display: none;
+}
+
+.isShowScrollTop--show {
+  display: block;
 }
 
 .navigation-list {
@@ -583,7 +747,7 @@ body::-webkit-scrollbar-thumb {
   left: 0%;
 }
 
-input {
+textarea {
   display: block;
 }
 
@@ -611,6 +775,73 @@ input {
   width: 100%;
 }
 
+textarea::-webkit-textarea-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea::-moz-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:-moz-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:-ms-textarea-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::-webkit-textarea-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-ms-textarea-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::-webkit-textarea-placeholder {
+  color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 4-18 */
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* FF 19+ */
+textarea:focus:-ms-textarea-placeholder {
+  color: transparent;
+}
+
+/* IE 10+ */
 .feedback__section {
   padding: 12.5vw 0px 0px 6.88vw;
 }
@@ -941,10 +1172,9 @@ input {
   }
 
   .button {
-    width: 100px;
+    width: 97px;
     font-size: 10px;
-    height: 30px;
-    padding: 10px 10px 10px 13px;
+    padding: 12px;
     border-radius: 10px;
   }
   .button border {
@@ -1321,7 +1551,7 @@ input {
   }
   .set .set__button a {
     font-size: 10px;
-    width: 120px;
+    width: 113px;
   }
 
   .social__network {
@@ -1395,6 +1625,14 @@ input {
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .isShowScrollTop--show {
+    display: none;
+  }
+
+  .feedback__button {
+    padding-left: 10px;
   }
 
   .cosmos .cosmos__content {

@@ -54,3 +54,25 @@ let unkillablBgTitleInstance = new Parallax(unkillablBgTitle);
 let keyBgTitle = document.getElementById('key__bg-title-scene');
 let keyBgTitleInstance = new Parallax(keyBgTitle);
 
+let pencilBgTitle = document.getElementById('pencil__bg-title-scene');
+let pencilBgTitleInstance = new Parallax(pencilBgTitle);
+
+const goTopBtn = document.querySelector('.isShowScrollTop');
+goTopBtn.addEventListener("click", goTop);
+window.addEventListener("scroll", trackScroll);
+function trackScroll(){
+  const offset = window.pageYOffset;
+  const coords = document.documentElement.clientHeight;
+  if (offset>coords){
+    goTopBtn.classList.add("isShowScrollTop--show")
+  }
+  else{
+    goTopBtn.classList.remove("isShowScrollTop--show")
+  }
+};
+function goTop(){
+  if( window.pageYOffset > 0){
+    window.scrollBy(0, -75);
+    setTimeout(goTop, 0);
+  }
+};
